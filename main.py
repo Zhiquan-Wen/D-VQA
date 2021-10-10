@@ -8,7 +8,7 @@ import numpy as np
 
 from dataset_vqacp import Dictionary, VQAFeatureDataset
 
-from base_model import Model
+from UpDn_and_DVQA import Model
 import utils
 import opts
 from train import train
