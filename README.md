@@ -67,4 +67,4 @@ If you found this code is useful, please cite the following paper:
 ## Acknowledgements
 This repository contains code modified from [SSL-VQA](https://github.com/CrossmodalGroup/SSL-VQA), thank you very much!
 
-Besides, we thank yaofo chen for providing 
+Besides, we thank Yaofo Chen for providing [MIO](https://github.com/chenyaofo/mio) library to accelerate the data loading.
