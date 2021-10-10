@@ -57,19 +57,10 @@ class Model(nn.Module):
         w_emb = self.w_emb(q)
         q_emb = self.q_emb(w_emb)  # run GRU on word embeddings [batch, q_dim]
         q_repr = self.q_net(q_emb)
-        batch_size = q.size(0)
 
         logits_pos, att_gv_pos = self.compute_predict(q_repr, q_emb, gv_pos)
 
-        if self_sup:
-            # construct an irrelevant Q-I pair for each instance
-            index = random.sample(range(0, batch_size), batch_size)
-            gv_neg = gv_pos[index]
-            logits_neg, att_gv_neg = \
-                self.compute_predict(q_repr, q_emb, gv_neg)
-            return logits_pos, logits_neg, att_gv_pos, att_gv_neg
-        else:
-            return logits_pos, att_gv_pos
+        return logits_pos, att_gv_pos
 
     def compute_predict(self, q_repr, q_emb, v):
 
