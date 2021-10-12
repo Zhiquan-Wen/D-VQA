@@ -1,8 +1,3 @@
-"""
-This code is modified from Hengyuan Hu's repository.
-https://github.com/hengyuan-hu/bottom-up-attention-vqa
-"""
-
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
@@ -31,17 +26,13 @@ class Model(nn.Module):
         self.num_layer = 2
 
         self.w_emb = WordEmbedding(opt.ntokens, emb_dim=300, dropout=dropW)
-        # self.w_emb.init_embedding(opt.dataroot + 'glove6b_init_300d.npy')
+        self.w_emb.init_embedding(opt.dataroot + 'glove6b_init_300d.npy')
         self.q_emb = QuestionEmbedding(in_dim=300, num_hid=num_hid, nlayers=1,
                                        bidirect=False, dropout=dropG, rnn_type='LSTM')
 
         self.q_net = FCNet([self.q_emb.num_hid, num_hid], dropout=dropL, norm=norm, act=activation)
         self.gv_net = FCNet([opt.v_dim, num_hid], dropout=dropL, norm=norm, act=activation)
 
-        # self.gv_att_1 = Att_3(v_dim=opt.v_dim, q_dim=self.q_emb.num_hid, num_hid=num_hid, dropout=dropout, norm=norm,
-        #                       act=activation)
-        # self.gv_att_2 = Att_3(v_dim=opt.v_dim, q_dim=self.q_emb.num_hid, num_hid=num_hid, dropout=dropout, norm=norm,
-        #                       act=activation)
         self.gv_modules = nn.ModuleList()
         self.q_modules = nn.ModuleList()
         self.att_down = nn.ModuleList()
@@ -53,8 +44,6 @@ class Model(nn.Module):
 
         self.classifier = SimpleClassifier(in_dim=num_hid, hid_dim=2 * num_hid, out_dim=opt.ans_dim,
                                            dropout=dropC, norm=norm, act=activation)
-
-        # self.normal = nn.BatchNorm1d(num_hid,affine=False)
 
     def forward(self, q, gv_pos, self_sup=True):
 
@@ -69,18 +58,9 @@ class Model(nn.Module):
         q_emb = self.q_emb(w_emb)  # run GRU on word embeddings [batch, q_dim]
         q_repr = self.q_net(q_emb)
         gv_pos = self.gv_net(gv_pos)
-        # batch_size = q.size(0)
 
         logits_pos = self.compute_predict(q_repr, gv_pos)
 
-        # if self_sup:
-        #     # construct an irrelevant Q-I pair for each instance
-        #     index = random.sample(range(0, batch_size), batch_size)
-        #     gv_neg = gv_pos[index]
-        #     logits_neg = \
-        #         self.compute_predict(q_repr, gv_neg)
-        #     return logits_pos, logits_neg
-        # else:
         return logits_pos
 
     def compute_predict(self, q_repr, v):

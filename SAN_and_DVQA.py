@@ -1,8 +1,3 @@
-"""
-This code is modified from Hengyuan Hu's repository.
-https://github.com/hengyuan-hu/bottom-up-attention-vqa
-"""
-
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
@@ -40,7 +35,7 @@ class Model(nn.Module):
         self.num_layer = 2
 
         self.w_emb = WordEmbedding(opt.ntokens, emb_dim=300, dropout=dropW)
-        # self.w_emb.init_embedding(opt.dataroot + 'glove6b_init_300d.npy')
+        self.w_emb.init_embedding(opt.dataroot + 'glove6b_init_300d.npy')
         self.q_emb = QuestionEmbedding(in_dim=300, num_hid=num_hid, nlayers=1,
                                        bidirect=False, dropout=dropG, rnn_type='LSTM')
 
@@ -92,8 +87,6 @@ class Model(nn.Module):
         self.classifier = SimpleClassifier(in_dim=num_hid, hid_dim=2 * num_hid, out_dim=opt.ans_dim,
                                            dropout=dropC, norm=norm, act=activation)
 
-        # self.normal = nn.BatchNorm1d(num_hid,affine=False)
-
     def forward(self, q, gv_pos, self_sup=True):
 
         """Forward
@@ -119,7 +112,6 @@ class Model(nn.Module):
                 self.compute_predict(q_repr, None, gv_neg, False)
             
             index_q = random.sample(range(0, batch_size), batch_size)
-            # q_emb_neg = q_emb[index_q]
             q_repr_neg = q_repr[index_q]
             out_neg_q = \
                 self.compute_predict(q_repr_neg, None, gv_pos, False) 

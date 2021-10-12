@@ -23,13 +23,13 @@ def main():
 
     features = f['features'][:]
 
-    # if required, please add to the mio
+    # if required, please unlock to the mio
     # boxes = f['boxes'][:]  # 4, 36
 
     h5_ids = f['ids'][:].tolist()
 
     with MioWriter("VQACP2/trainval_features") as m:
-        # for i, (box, fea) in enumerate(zip(boxes, features)):
+        # for i, (box, fea) in enumerate(zip(boxes, features)): # if required, please unlock to the mio
         for i, fea in enumerate(features):
             print(f"{i}/{len(fea)}", fea.shape)
             with m.create_collection() as c:

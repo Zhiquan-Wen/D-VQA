@@ -115,7 +115,7 @@ if __name__ == '__main__':
     
     d = Dictionary.load_from_file(dictionary_path)
     emb_dim = 300
-    glove_file = '/mnt/cephfs/dataset/VQACP2/glove/glove.6B.%dd.txt' % emb_dim
+    glove_file = './dataset/VQACP2/glove/glove.6B.%dd.txt' % emb_dim
     weights, word2emb = create_glove_embedding_init(d.idx2word, glove_file)
     np.save(os.path.join(args.dataroot, 'glove6b_init_%dd.npy' % emb_dim), weights)
 

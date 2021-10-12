@@ -274,30 +274,29 @@ def parse_args():
 if __name__ == '__main__':
     args = parse_args()
 
-    train_answer_file = '/mnt/cephfs/dataset/wenzhiquan/VQA_v2/v2_mscoco_train2014_annotations.json'
+    train_answer_file = './VQA_v2/v2_mscoco_train2014_annotations.json'
     train_answers = json.load(open(train_answer_file))['annotations']
 
-    val_answer_file = '/mnt/cephfs/dataset/wenzhiquan/VQA_v2/v2_mscoco_val2014_annotations.json'
+    val_answer_file = './VQA_v2/v2_mscoco_val2014_annotations.json'
     val_answers = json.load(open(val_answer_file))['annotations']
 
-    train_question_file = '/mnt/cephfs/dataset/wenzhiquan/VQA_v2/v2_OpenEnded_mscoco_train2014_questions.json'
+    train_question_file = './VQA_v2/v2_OpenEnded_mscoco_train2014_questions.json'
     train_questions = json.load(open(train_question_file))['questions']
 
-    val_question_file = '/mnt/cephfs/dataset/wenzhiquan/VQA_v2/v2_OpenEnded_mscoco_val2014_questions.json'
+    val_question_file = './VQA_v2/v2_OpenEnded_mscoco_val2014_questions.json'
     val_questions = json.load(open(val_question_file))['questions']
 
-    # answers = train_answers + val_answers
     answers = train_answers
     occurence = filter_answers(answers, 9)
 
-    cache_path = args.dataroot + 'cache_train_only/train_val_ans2label.pkl'
+    cache_path = args.dataroot + 'cache/train_val_ans2label.pkl'
     if os.path.isfile(cache_path):
         print('found %s' % cache_path)
         ans2label = cPickle.load(open(cache_path, 'rb'))
     else:
-        ans2label = create_ans2label(occurence, 'train_val', args.dataroot +'cache_train_only')
+        ans2label = create_ans2label(occurence, 'train_val', args.dataroot +'cache')
 
-    target_root = args.dataroot +'cache_train_only'
+    target_root = args.dataroot +'cache'
 
     compute_target(train_answers, ans2label, 'train', target_root)
     compute_target(val_answers, ans2label, 'val', target_root)

@@ -1,5 +1,5 @@
 """
-This code is slightly modified from Hengyuan Hu's repository.
+This code is copied from SSL-VQA's repository.
 https://github.com/hengyuan-hu/bottom-up-attention-vqa
 """
 from __future__ import print_function

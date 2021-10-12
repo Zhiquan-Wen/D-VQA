@@ -1,6 +1,6 @@
 """
-This code is modified from Hengyuan Hu's repository.
-https://github.com/hengyuan-hu/bottom-up-attention-vqa
+This code is copied from SSL-VQA's repository.
+https://github.com/CrossmodalGroup/SSL-VQA
 """
 import argparse
 import json
@@ -10,8 +10,8 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 import numpy as np
 
-from dataset_mio_vqacp import Dictionary, VQAFeatureDataset
-from base_model_pack.base_model_mine_q_and_img_bias import Model
+from dataset_vqacp import Dictionary, VQAFeatureDataset
+from UpDn_and_DVQA import Model
 import utils
 import opts
 
