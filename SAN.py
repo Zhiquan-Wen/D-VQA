@@ -1,3 +1,5 @@
+'''we take the SAN backbone as an ablation study, 
+   and use the same object features with UpDn for simplicity.'''
 import torch
 import torch.nn as nn
 from torch.autograd import Variable

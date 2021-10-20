@@ -22,7 +22,7 @@ cd ..
 * Train our model
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --dataroot data/vqacp2/ --img_root data/coco/trainval_features --output saved_models_cp2/ --self_loss_weight 3 --self_loss_q 0.7
-```
+``` 
 
 * Train the model with 80% of the original training set
 ```
