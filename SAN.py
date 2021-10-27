@@ -57,7 +57,7 @@ class Model(nn.Module):
         """
 
         w_emb = self.w_emb(q)
-        q_emb = self.q_emb(w_emb)  # run GRU on word embeddings [batch, q_dim]
+        q_emb = self.q_emb(w_emb)  # run LSTM on word embeddings [batch, q_dim]
         q_repr = self.q_net(q_emb)
         gv_pos = self.gv_net(gv_pos)
 

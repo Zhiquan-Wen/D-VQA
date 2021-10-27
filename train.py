@@ -95,7 +95,7 @@ def train(model, train_loader, eval_loader, opt):
         param_group['lr'] = opt.learning_rate
 
     scheduler = MultiStepLR(
-        optim, milestones=[10, 15, 20, 25, 30, 35], gamma=0.5)
+        optim, milestones=[10, 15, 20, 25], gamma=0.5)
     scheduler.last_epoch = opt.s_epoch
 
     best_eval_score = 0
