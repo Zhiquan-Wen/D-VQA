@@ -1,5 +1,5 @@
 # D-VQA
-We provide the PyTorch implementation for [Debiased Visual Question Answering from Feature and Sample Perspectives]() (NeurIPS 2021).
+We provide the PyTorch implementation for [Debiased Visual Question Answering from Feature and Sample Perspectives](https://openreview.net/pdf?id=Z4ry59PVMq8) (NeurIPS 2021).
 
 <p align="center">
 <img src="framework.png" alt="D-VQA" width="90%" align=center />
