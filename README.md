@@ -5,20 +5,38 @@ We provide the PyTorch implementation for [Debiased Visual Question Answering fr
 <img src="framework.png" alt="D-VQA" width="90%" align=center />
 </p>
 
+## Dependencies
+* Python 3.6
+* PyTorch 1.1.0
+* dependencies in requirements.txt
+* We train and evaluate all of the models based on one TITAN Xp GPU
 
-## Download and preprocess the data
+## Getting Started
+
+### Installation
+1. Clone this repository:
+
+        git clone https://github.com/Zhiquan-Wen/D-VQA.git
+        cd D-VQA
+
+2. Install PyTorch and other dependencies:
+
+        pip install -r requirements.txt
+
+
+### Download and preprocess the data
 
 ```
 cd data 
 bash download.sh
-python preprocess_image.py --input_tsv_folder xxx.tsv --output_h5 xxx.h5
-python preprocess_features.py --input_h5 xxx.h5 --output_path trainval 
+python preprocess_features.py --input_tsv_folder xxx.tsv --output_h5 xxx.h5
+python feature_preprocess.py --input_h5 xxx.h5 --output_path trainval 
 python create_dictionary.py --dataroot vqacp2/
 python preprocess_text.py --dataroot vqacp2/ --version v2
 cd ..
 ```
 
-## Training
+### Training
 * Train our model
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --dataroot data/vqacp2/ --img_root data/coco/trainval_features --output saved_models_cp2/ --self_loss_weight 3 --self_loss_q 0.7
@@ -29,7 +47,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --dataroot data/vqacp2/ --img_root data/co
 CUDA_VISIBLE_DEVICES=0 python main.py --dataroot data/vqacp2/ --img_root data/coco/trainval_features --output saved_models_cp2/ --self_loss_weight 3 --self_loss_q 0.7 --ratio 0.8 
 ```
 
-## Evaluation
+### Evaluation
 * A json file of results from the test set can be produced with:
 ```
 CUDA_VISIBLE_DEVICES=0 python test.py --dataroot data/vqacp2/ --img_root data/coco/trainval_features --checkpoint_path saved_models_cp2/best_model.pth --output saved_models_cp2/result/
@@ -39,7 +57,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --dataroot data/vqacp2/ --img_root data/co
 python comput_score.py --input saved_models_cp2/result/XX.json --dataroot data/vqacp2/
 ```
 
-## Pretrained model
+### Pretrained model
 A well-trained model can be found [here](https://github.com/Zhiquan-Wen/D-VQA/releases/download/Models/61.91.pth). The test results file produced by it can be found [here](https://github.com/Zhiquan-Wen/D-VQA/releases/download/Results/61.91_results.json) and its performance is as follows:
 ```
 Overall score: 61.91

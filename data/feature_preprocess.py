@@ -28,10 +28,10 @@ def main():
 
     h5_ids = f['ids'][:].tolist()
 
-    with MioWriter("VQACP2/trainval_features") as m:
+    with MioWriter(root) as m:
         # for i, (box, fea) in enumerate(zip(boxes, features)): # if required, please unlock to the mio
         for i, fea in enumerate(features):
-            print(f"{i}/{len(fea)}", fea.shape)
+            print(f"{i}/{len(features)}")
             with m.create_collection() as c:
                 c.set_meta(struct.pack("<I", h5_ids[i]))
                 # c.add_object(box.tobytes()) # if require bounding box, unlock it
