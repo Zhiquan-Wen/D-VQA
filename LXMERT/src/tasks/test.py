@@ -63,11 +63,7 @@ def make_json(logits, qIds, dataloader):
     return results
 
 if __name__ == '__main__':
-    # opt = opts.parse_opt()
-
     torch.backends.cudnn.benchmark = True
-
-    # opt.dataroot = '/mnt/cephfs/dataset/wenzhiquan/VQACP2/vqacp2/'    
 
     dictionary = Dictionary.load_from_file(os.path.join(opt.dataroot, 'dictionary.pkl'))
     opt.ntokens = dictionary.ntoken
@@ -81,7 +77,6 @@ if __name__ == '__main__':
     model = VQAModel(2274)
     model = model.cuda()
 
-    # eval_loader = DataLoader(eval_dset, batch_size, shuffle=False, num_workers=1, collate_fn=utils_1.trim_collate)
     eval_loader = DataLoader(eval_dset, 1800, shuffle=False, num_workers=1, collate_fn=utils_1.trim_collate)
 
     def process(args, model, eval_loader):
@@ -92,7 +87,6 @@ if __name__ == '__main__':
         model.load_state_dict(model_data)
 
         model = nn.DataParallel(model).cuda()
-        # opt.s_epoch = model_data['epoch'] + 1
 
         model.train(False)
 
