@@ -13,7 +13,7 @@ bash run/run.bash 0 saved_path "--pretrain_epoches 6 --loadLXMERT ./Epoch20_LXRT
 ## Evaluation
 * A json file of results from the test set can be produced with:
 ```
-CUDA_VISIBLE_DEVICES=0 python test.py --dataroot data/vqacp2/ --img_root data/trainval_features_with_boxes --checkpoint_path saved_models_cp2/best_model.pth --output saved_models_cp2/result/
+CUDA_VISIBLE_DEVICES=0 PYTHONPATH=$PYTHONPATH:./src python -u src/tasks/test.py --dataroot data/vqacp2/ --img_root data/trainval_features_with_boxes --checkpoint_path saved_models_cp2/best_model.pth --output saved_models_cp2/result/
 ```
 * Compute detailed accuracy for each answer type:
 ```

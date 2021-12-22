@@ -159,4 +159,5 @@ cython_debug/
 .ionide
 *.pth
 snap
+results
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
