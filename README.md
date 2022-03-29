@@ -58,12 +58,35 @@ python comput_score.py --input saved_models_cp2/result/XX.json --dataroot data/v
 ```
 
 ### Pretrained model
-A well-trained model can be found [here](https://github.com/Zhiquan-Wen/D-VQA/releases/download/Models/61.91.pth). The test results file produced by it can be found [here](https://github.com/Zhiquan-Wen/D-VQA/releases/download/Results/61.91_results.json) and its performance is as follows:
+A well-trained model can be found [here](https://github.com/Zhiquan-Wen/D-VQA/releases/download/Models/61.91.pth) with [raw training log](). The test results file produced by it can be found [here](https://github.com/Zhiquan-Wen/D-VQA/releases/download/Results/61.91_results.json) and its performance is as follows:
 ```
 Overall score: 61.91
 Yes/No: 88.93 Num: 52.32 other: 50.39
 ```
 
+## Quick Reproduce
+
+1. **Preparing enviroments**: we prepare a docker image (built from [Dockerfile]()) which has included above dependencies, you can pull this image from dockerhub or aliyun registry:
+
+```
+docker pull zhiquanwen/debias_vqa:v1
+```
+
+
+```
+docker pull registry.cn-shenzhen.aliyuncs.com/wenzhiquan/debias_vqa:v1
+docker tag registry.cn-shenzhen.aliyuncs.com/wenzhiquan/debias_vqa:v1 zhiquanwen/debias_vqa:v1
+```
+
+2. **Start docker container**: start the container by mapping the dataset in it:
+
+```
+docker run --gpus all -it --ipc=host --network=host --shm-size 32g -v /host/path/to/data:/xxx:ro zhiquanwen/debias_vqa:v1
+```
+
+3. **Running**: refer to `Download and preprocess the data`, `Training` and `Evaluation` steps in `Getting Started`.
+
+**Results**: we obtain 61.73% in VQA-CP2 (which is almost the same as 61.91% in Table 1 of the paper) using the above docker image and training steps. We also provide the [pretrained model]() and [raw training log]().
 
 ## Reference
 If you found this code is useful, please cite the following paper:
