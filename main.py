@@ -12,6 +12,7 @@ from UpDn_and_DVQA import Model
 import utils
 import opts
 from train import train
+import os
 
 
 def weights_init_kn(m):
@@ -44,8 +45,8 @@ if __name__ == '__main__':
     train_dset = VQAFeatureDataset('train', dictionary, opt.dataroot, opt.img_root, ratio=opt.ratio, adaptive=False)  # load labeld data
     eval_dset = VQAFeatureDataset('test', dictionary, opt.dataroot, opt.img_root,ratio=1.0, adaptive=False)
 
-    train_loader = DataLoader(train_dset, opt.batch_size, shuffle=True, num_workers=4, collate_fn=utils.trim_collate)
+    train_loader = DataLoader(train_dset, opt.batch_size, shuffle=True, num_workers=0, collate_fn=utils.trim_collate)
     opt.use_all = 1
-    eval_loader = DataLoader(eval_dset, opt.batch_size, shuffle=False, num_workers=4, collate_fn=utils.trim_collate)
+    eval_loader = DataLoader(eval_dset, opt.batch_size, shuffle=False, num_workers=0, collate_fn=utils.trim_collate)
 
     train(model, train_loader, eval_loader, opt)

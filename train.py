@@ -9,7 +9,7 @@ import json
 from torch.optim.lr_scheduler import MultiStepLR
 from torch.nn import CosineSimilarity
 import torch.nn.functional as F
-
+from torch.utils.collect_env import get_pretty_env_info
 
 class Contrastive_loss(nn.Module):
     def __init__(self, tao):
@@ -79,6 +79,10 @@ def train(model, train_loader, eval_loader, opt):
                              weight_decay=opt.weight_decay)
     logger = utils.Logger(os.path.join(opt.output, 'log.txt'))
 
+    
+    logger.write("Collect envs from system:\n" + get_pretty_env_info())
+    logger.write("Collect pip packages list from system:\n" + utils.get_pip_packages())
+    logger.write("-"*30 + "\n")
     utils.print_model(model, logger)
 
     contrastive_loss = Contrastive_loss(opt.tao).cuda()

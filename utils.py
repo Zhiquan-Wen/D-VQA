@@ -297,3 +297,53 @@ class GradMulConst(torch.autograd.Function):
 
 def grad_mul_const(x, const):
     return GradMulConst.apply(x, const)
+
+
+def run_and_read_all(run_lambda, command):
+    """Runs command using run_lambda; reads and returns entire output if rc is 0"""
+    rc, out, _ = run_lambda(command)
+    if rc != 0:
+        return None
+    return out
+
+PY3 =True
+import subprocess
+
+def run(command):
+    """Returns (return-code, stdout, stderr)"""
+    p = subprocess.Popen(command, stdout=subprocess.PIPE,
+                         stderr=subprocess.PIPE, shell=True)
+    output, err = p.communicate()
+    rc = p.returncode
+    if PY3:
+        output = output.decode("utf-8")
+        err = err.decode("utf-8")
+    return rc, output.strip(), err.strip()
+
+def get_pip_packages(run_lambda=run):
+    # People generally have `pip` as `pip` or `pip3`
+    def run_with_pip(pip):
+        return run_and_read_all(run_lambda, pip + ' list --format=freeze ')
+
+    if not PY3:
+        return 'pip', run_with_pip('pip')
+
+    # Try to figure out if the user is running pip or pip3.
+    out2 = run_with_pip('pip')
+    out3 = run_with_pip('pip3')
+
+    num_pips = len([x for x in [out2, out3] if x is not None])
+    if num_pips == 0:
+        return out2
+
+    if num_pips == 1:
+        if out2 is not None:
+            return 'pip', out2
+        return out3
+
+    # num_pips is 2. Return pip3 by default b/c that most likely
+    # is the one associated with Python 3
+    return out3
+
+if __name__ == "__main__":
+    print(get_pip_packages())
