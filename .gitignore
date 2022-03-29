@@ -160,4 +160,6 @@ cython_debug/
 *.pth
 snap
 results
+*.json
+*.txt
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode
