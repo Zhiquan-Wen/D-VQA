@@ -1,0 +1,627 @@
+Collect envs from system:
+PyTorch version: 1.1.0
+Is debug build: No
+CUDA used to build PyTorch: 9.0.176
+
+OS: Ubuntu 18.04.5 LTS
+GCC version: Could not collect
+CMake version: Could not collect
+
+Python version: 3.6
+Is CUDA available: Yes
+CUDA runtime version: Could not collect
+GPU models and configuration: 
+GPU 0: NVIDIA TITAN Xp
+GPU 1: NVIDIA TITAN Xp
+GPU 2: NVIDIA TITAN Xp
+GPU 3: NVIDIA TITAN Xp
+GPU 4: NVIDIA TITAN Xp
+GPU 5: NVIDIA TITAN Xp
+GPU 6: NVIDIA TITAN Xp
+GPU 7: NVIDIA TITAN Xp
+
+Nvidia driver version: 470.103.01
+cuDNN version: Could not collect
+
+Versions of relevant libraries:
+[pip3] numpy==1.19.5
+[pip3] torch==1.1.0
+[conda] Could not collect
+Collect pip packages list from system:
+boto3==1.17.47
+botocore==1.20.47
+cached-property==1.5.2
+certifi==2021.10.8
+chardet==4.0.0
+h5py==3.1.0
+idna==2.10
+jmespath==0.10.0
+numpy==1.19.5
+Pillow==8.1.2
+pip==9.0.1
+python-dateutil==2.8.2
+requests==2.25.1
+s3transfer==0.3.7
+setuptools==59.6.0
+six==1.16.0
+torch==1.1.0
+tqdm==4.60.0
+urllib3==1.26.9
+------------------------------
+
+nParams=	54211664
+traing: 100/1712, train_loss: 269.896452, bce_loss: 64.289931, q_bce_loss: 110.671274, v_bce_loss: 39.911882, debias_bce_loss: 54.436224, constrast_loss: 0.587146, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 27.777345
+traing: 200/1712, train_loss: 148.645763, bce_loss: 35.104313, q_bce_loss: 58.719779, v_bce_loss: 23.879187, debias_bce_loss: 30.441500, constrast_loss: 0.500987, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 31.975913
+traing: 300/1712, train_loss: 107.511637, bce_loss: 25.234054, q_bce_loss: 41.175118, v_bce_loss: 18.425058, debias_bce_loss: 22.211925, constrast_loss: 0.465484, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 34.108508
+traing: 400/1712, train_loss: 86.614282, bce_loss: 20.206043, q_bce_loss: 32.320625, v_bce_loss: 15.640493, debias_bce_loss: 18.001523, constrast_loss: 0.445600, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 36.036459
+traing: 500/1712, train_loss: 73.885802, bce_loss: 17.130277, q_bce_loss: 26.958250, v_bce_loss: 13.947519, debias_bce_loss: 15.417456, constrast_loss: 0.432301, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 37.735939
+traing: 600/1712, train_loss: 65.263815, bce_loss: 15.043123, q_bce_loss: 23.351440, v_bce_loss: 12.794412, debias_bce_loss: 13.651702, constrast_loss: 0.423139, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 39.259333
+traing: 700/1712, train_loss: 58.974763, bce_loss: 13.526751, q_bce_loss: 20.748311, v_bce_loss: 11.925114, debias_bce_loss: 12.358276, constrast_loss: 0.416311, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 40.610492
+traing: 800/1712, train_loss: 54.168105, bce_loss: 12.370515, q_bce_loss: 18.774919, v_bce_loss: 11.245091, debias_bce_loss: 11.366824, constrast_loss: 0.410757, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 41.825847
+traing: 900/1712, train_loss: 50.341995, bce_loss: 11.452716, q_bce_loss: 17.217968, v_bce_loss: 10.689088, debias_bce_loss: 10.576050, constrast_loss: 0.406174, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 42.942131
+traing: 1000/1712, train_loss: 47.245665, bce_loss: 10.713873, q_bce_loss: 15.967799, v_bce_loss: 10.224741, debias_bce_loss: 9.936794, constrast_loss: 0.402459, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 43.893881
+traing: 1100/1712, train_loss: 44.659868, bce_loss: 10.097316, q_bce_loss: 14.929988, v_bce_loss: 9.832899, debias_bce_loss: 9.400403, constrast_loss: 0.399262, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 44.778292
+traing: 1200/1712, train_loss: 42.498293, bce_loss: 9.582229, q_bce_loss: 14.064421, v_bce_loss: 9.502643, debias_bce_loss: 8.952514, constrast_loss: 0.396488, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 45.569988
+traing: 1300/1712, train_loss: 40.636532, bce_loss: 9.140018, q_bce_loss: 13.326815, v_bce_loss: 9.209786, debias_bce_loss: 8.565940, constrast_loss: 0.393973, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 46.345053
+traing: 1400/1712, train_loss: 39.028677, bce_loss: 8.758196, q_bce_loss: 12.689552, v_bce_loss: 8.958067, debias_bce_loss: 8.231131, constrast_loss: 0.391732, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 47.005396
+traing: 1500/1712, train_loss: 37.640518, bce_loss: 8.429835, q_bce_loss: 12.141113, v_bce_loss: 8.736249, debias_bce_loss: 7.943571, constrast_loss: 0.389751, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 47.574046
+traing: 1600/1712, train_loss: 36.404658, bce_loss: 8.137374, q_bce_loss: 11.657100, v_bce_loss: 8.535219, debias_bce_loss: 7.686972, constrast_loss: 0.387995, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 48.138103
+traing: 1700/1712, train_loss: 35.306993, bce_loss: 7.877264, q_bce_loss: 11.227198, v_bce_loss: 8.358701, debias_bce_loss: 7.457452, constrast_loss: 0.386378, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 48.649817
+
+lr: 0.0010000
+epoch 0, time: 503.49
+	train_loss: 35.18, norm: 37.1759, score: 48.68
+	eval score: 33.08 (91.34)
+	entropy:  4.35
+traing: 100/1712, train_loss: 17.501041, bce_loss: 3.633504, q_bce_loss: 4.299913, v_bce_loss: 5.504172, debias_bce_loss: 3.700576, constrast_loss: 0.362876, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 58.834637
+traing: 200/1712, train_loss: 17.417467, bce_loss: 3.612262, q_bce_loss: 4.277967, v_bce_loss: 5.483004, debias_bce_loss: 3.683882, constrast_loss: 0.360353, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 58.784506
+traing: 300/1712, train_loss: 17.296881, bce_loss: 3.589676, q_bce_loss: 4.259732, v_bce_loss: 5.430147, debias_bce_loss: 3.657877, constrast_loss: 0.359448, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 58.841147
+traing: 400/1712, train_loss: 17.237687, bce_loss: 3.575854, q_bce_loss: 4.249288, v_bce_loss: 5.410688, debias_bce_loss: 3.642984, constrast_loss: 0.358872, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 58.891928
+traing: 500/1712, train_loss: 17.199217, bce_loss: 3.569226, q_bce_loss: 4.242175, v_bce_loss: 5.394897, debias_bce_loss: 3.634539, constrast_loss: 0.358380, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 58.913803
+traing: 600/1712, train_loss: 17.165425, bce_loss: 3.560650, q_bce_loss: 4.238015, v_bce_loss: 5.384073, debias_bce_loss: 3.624612, constrast_loss: 0.358075, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 58.994576
+traing: 700/1712, train_loss: 17.128260, bce_loss: 3.551205, q_bce_loss: 4.231042, v_bce_loss: 5.373984, debias_bce_loss: 3.614362, constrast_loss: 0.357666, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.090031
+traing: 800/1712, train_loss: 17.085576, bce_loss: 3.541154, q_bce_loss: 4.219297, v_bce_loss: 5.363483, debias_bce_loss: 3.604468, constrast_loss: 0.357174, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.210776
+traing: 900/1712, train_loss: 17.060342, bce_loss: 3.533737, q_bce_loss: 4.214416, v_bce_loss: 5.359411, debias_bce_loss: 3.595944, constrast_loss: 0.356834, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.292970
+traing: 1000/1712, train_loss: 17.026338, bce_loss: 3.524185, q_bce_loss: 4.205408, v_bce_loss: 5.354714, debias_bce_loss: 3.585525, constrast_loss: 0.356507, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.408465
+traing: 1100/1712, train_loss: 16.989526, bce_loss: 3.515246, q_bce_loss: 4.198617, v_bce_loss: 5.344586, debias_bce_loss: 3.574915, constrast_loss: 0.356161, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.490413
+traing: 1200/1712, train_loss: 16.968605, bce_loss: 3.509280, q_bce_loss: 4.193554, v_bce_loss: 5.341529, debias_bce_loss: 3.568322, constrast_loss: 0.355920, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.562718
+traing: 1300/1712, train_loss: 16.950712, bce_loss: 3.503738, q_bce_loss: 4.187934, v_bce_loss: 5.341888, debias_bce_loss: 3.561517, constrast_loss: 0.355636, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.653948
+traing: 1400/1712, train_loss: 16.935445, bce_loss: 3.498660, q_bce_loss: 4.183458, v_bce_loss: 5.342245, debias_bce_loss: 3.555707, constrast_loss: 0.355376, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.737725
+traing: 1500/1712, train_loss: 16.902992, bce_loss: 3.489706, q_bce_loss: 4.176105, v_bce_loss: 5.336119, debias_bce_loss: 3.545966, constrast_loss: 0.355095, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.851217
+traing: 1600/1712, train_loss: 16.886282, bce_loss: 3.484310, q_bce_loss: 4.172376, v_bce_loss: 5.334789, debias_bce_loss: 3.539984, constrast_loss: 0.354824, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.922934
+traing: 1700/1712, train_loss: 16.864861, bce_loss: 3.479032, q_bce_loss: 4.168097, v_bce_loss: 5.329479, debias_bce_loss: 3.533650, constrast_loss: 0.354603, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 59.982155
+
+lr: 0.0010000
+epoch 1, time: 460.66
+	train_loss: 16.85, norm: 5.0719, score: 59.95
+	eval score: 36.88 (91.34)
+	entropy:  4.05
+traing: 100/1712, train_loss: 16.043799, bce_loss: 3.256256, q_bce_loss: 4.016675, v_bce_loss: 5.117516, debias_bce_loss: 3.299466, constrast_loss: 0.353886, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.951824
+traing: 200/1712, train_loss: 16.057076, bce_loss: 3.257927, q_bce_loss: 4.018001, v_bce_loss: 5.128471, debias_bce_loss: 3.301085, constrast_loss: 0.351593, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.397136
+traing: 300/1712, train_loss: 16.053510, bce_loss: 3.257366, q_bce_loss: 4.019296, v_bce_loss: 5.126391, debias_bce_loss: 3.299527, constrast_loss: 0.350930, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.208335
+traing: 400/1712, train_loss: 16.057981, bce_loss: 3.257167, q_bce_loss: 4.018809, v_bce_loss: 5.131913, debias_bce_loss: 3.299396, constrast_loss: 0.350696, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.166993
+traing: 500/1712, train_loss: 16.004422, bce_loss: 3.245189, q_bce_loss: 4.005178, v_bce_loss: 5.116285, debias_bce_loss: 3.287254, constrast_loss: 0.350517, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.182814
+traing: 600/1712, train_loss: 16.022125, bce_loss: 3.248121, q_bce_loss: 4.008482, v_bce_loss: 5.125153, debias_bce_loss: 3.290000, constrast_loss: 0.350370, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.136937
+traing: 700/1712, train_loss: 16.012649, bce_loss: 3.245683, q_bce_loss: 4.005918, v_bce_loss: 5.123853, debias_bce_loss: 3.287108, constrast_loss: 0.350088, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.182479
+traing: 800/1712, train_loss: 16.006315, bce_loss: 3.242666, q_bce_loss: 4.004024, v_bce_loss: 5.125531, debias_bce_loss: 3.284053, constrast_loss: 0.350041, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.211753
+traing: 900/1712, train_loss: 16.007853, bce_loss: 3.242233, q_bce_loss: 4.005132, v_bce_loss: 5.127663, debias_bce_loss: 3.282802, constrast_loss: 0.350023, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.227721
+traing: 1000/1712, train_loss: 16.007098, bce_loss: 3.240348, q_bce_loss: 4.004322, v_bce_loss: 5.131375, debias_bce_loss: 3.281053, constrast_loss: 0.350000, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.266929
+traing: 1100/1712, train_loss: 16.003933, bce_loss: 3.237771, q_bce_loss: 4.001453, v_bce_loss: 5.136608, debias_bce_loss: 3.278265, constrast_loss: 0.349836, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.321379
+traing: 1200/1712, train_loss: 15.985728, bce_loss: 3.232179, q_bce_loss: 3.996252, v_bce_loss: 5.135148, debias_bce_loss: 3.272480, constrast_loss: 0.349670, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.390735
+traing: 1300/1712, train_loss: 15.974053, bce_loss: 3.228880, q_bce_loss: 3.994136, v_bce_loss: 5.133110, debias_bce_loss: 3.268359, constrast_loss: 0.349569, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.433395
+traing: 1400/1712, train_loss: 15.969685, bce_loss: 3.228130, q_bce_loss: 3.992244, v_bce_loss: 5.132642, debias_bce_loss: 3.267245, constrast_loss: 0.349424, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.436664
+traing: 1500/1712, train_loss: 15.971599, bce_loss: 3.227873, q_bce_loss: 3.993740, v_bce_loss: 5.133902, debias_bce_loss: 3.266764, constrast_loss: 0.349321, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.476043
+traing: 1600/1712, train_loss: 15.959702, bce_loss: 3.224790, q_bce_loss: 3.989930, v_bce_loss: 5.132923, debias_bce_loss: 3.262875, constrast_loss: 0.349183, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.509279
+traing: 1700/1712, train_loss: 15.959487, bce_loss: 3.224213, q_bce_loss: 3.990132, v_bce_loss: 5.133501, debias_bce_loss: 3.262555, constrast_loss: 0.349086, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 63.554536
+
+lr: 0.0010000
+epoch 2, time: 465.86
+	train_loss: 15.95, norm: 4.6782, score: 63.51
+	eval score: 38.15 (91.34)
+	entropy:  3.87
+traing: 100/1712, train_loss: 15.583338, bce_loss: 3.108545, q_bce_loss: 3.956849, v_bce_loss: 5.028916, debias_bce_loss: 3.137987, constrast_loss: 0.351040, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 66.218752
+traing: 200/1712, train_loss: 15.465164, bce_loss: 3.083964, q_bce_loss: 3.923123, v_bce_loss: 4.994549, debias_bce_loss: 3.114418, constrast_loss: 0.349110, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 66.078127
+traing: 300/1712, train_loss: 15.441287, bce_loss: 3.081963, q_bce_loss: 3.915306, v_bce_loss: 4.979285, debias_bce_loss: 3.116279, constrast_loss: 0.348455, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.967450
+traing: 400/1712, train_loss: 15.429199, bce_loss: 3.080679, q_bce_loss: 3.912462, v_bce_loss: 4.972862, debias_bce_loss: 3.114775, constrast_loss: 0.348421, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.902020
+traing: 500/1712, train_loss: 15.424332, bce_loss: 3.078097, q_bce_loss: 3.909428, v_bce_loss: 4.977603, debias_bce_loss: 3.110943, constrast_loss: 0.348262, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.884377
+traing: 600/1712, train_loss: 15.438556, bce_loss: 3.082076, q_bce_loss: 3.911976, v_bce_loss: 4.980779, debias_bce_loss: 3.115659, constrast_loss: 0.348067, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.778647
+traing: 700/1712, train_loss: 15.426362, bce_loss: 3.079544, q_bce_loss: 3.905434, v_bce_loss: 4.980670, debias_bce_loss: 3.112856, constrast_loss: 0.347859, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.803201
+traing: 800/1712, train_loss: 15.421627, bce_loss: 3.078579, q_bce_loss: 3.903134, v_bce_loss: 4.980753, debias_bce_loss: 3.111462, constrast_loss: 0.347699, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.755535
+traing: 900/1712, train_loss: 15.413872, bce_loss: 3.077065, q_bce_loss: 3.899718, v_bce_loss: 4.979809, debias_bce_loss: 3.109638, constrast_loss: 0.347643, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.789209
+traing: 1000/1712, train_loss: 15.406845, bce_loss: 3.076072, q_bce_loss: 3.898501, v_bce_loss: 4.976429, debias_bce_loss: 3.108340, constrast_loss: 0.347504, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.810028
+traing: 1100/1712, train_loss: 15.397164, bce_loss: 3.073491, q_bce_loss: 3.895737, v_bce_loss: 4.974853, debias_bce_loss: 3.105746, constrast_loss: 0.347335, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.859021
+traing: 1200/1712, train_loss: 15.404665, bce_loss: 3.074542, q_bce_loss: 3.898123, v_bce_loss: 4.977298, debias_bce_loss: 3.107465, constrast_loss: 0.347238, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.860679
+traing: 1300/1712, train_loss: 15.414884, bce_loss: 3.076337, q_bce_loss: 3.899329, v_bce_loss: 4.983274, debias_bce_loss: 3.108802, constrast_loss: 0.347142, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.824020
+traing: 1400/1712, train_loss: 15.419217, bce_loss: 3.076966, q_bce_loss: 3.900124, v_bce_loss: 4.985528, debias_bce_loss: 3.109509, constrast_loss: 0.347090, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.818175
+traing: 1500/1712, train_loss: 15.405528, bce_loss: 3.073751, q_bce_loss: 3.896608, v_bce_loss: 4.982268, debias_bce_loss: 3.105919, constrast_loss: 0.346981, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.836026
+traing: 1600/1712, train_loss: 15.405576, bce_loss: 3.073589, q_bce_loss: 3.896853, v_bce_loss: 4.982745, debias_bce_loss: 3.105492, constrast_loss: 0.346897, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.851483
+traing: 1700/1712, train_loss: 15.407961, bce_loss: 3.074210, q_bce_loss: 3.898623, v_bce_loss: 4.982497, debias_bce_loss: 3.105794, constrast_loss: 0.346836, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 65.869334
+
+lr: 0.0010000
+epoch 3, time: 464.29
+	train_loss: 15.40, norm: 4.3936, score: 65.83
+	eval score: 39.41 (91.34)
+	entropy:  3.72
+traing: 100/1712, train_loss: 15.143699, bce_loss: 2.980691, q_bce_loss: 3.879295, v_bce_loss: 4.925539, debias_bce_loss: 3.008209, constrast_loss: 0.349966, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 68.126304
+traing: 200/1712, train_loss: 15.016116, bce_loss: 2.960046, q_bce_loss: 3.854142, v_bce_loss: 4.866008, debias_bce_loss: 2.988164, constrast_loss: 0.347757, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.961590
+traing: 300/1712, train_loss: 14.989276, bce_loss: 2.953092, q_bce_loss: 3.840892, v_bce_loss: 4.866189, debias_bce_loss: 2.981925, constrast_loss: 0.347177, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.884550
+traing: 400/1712, train_loss: 14.971637, bce_loss: 2.949127, q_bce_loss: 3.839254, v_bce_loss: 4.859147, debias_bce_loss: 2.977413, constrast_loss: 0.346695, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.834637
+traing: 500/1712, train_loss: 14.953650, bce_loss: 2.945160, q_bce_loss: 3.829591, v_bce_loss: 4.858091, debias_bce_loss: 2.974315, constrast_loss: 0.346493, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.764064
+traing: 600/1712, train_loss: 14.979241, bce_loss: 2.951235, q_bce_loss: 3.834463, v_bce_loss: 4.866345, debias_bce_loss: 2.980785, constrast_loss: 0.346413, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.655383
+traing: 700/1712, train_loss: 14.995859, bce_loss: 2.954201, q_bce_loss: 3.835126, v_bce_loss: 4.876334, debias_bce_loss: 2.983801, constrast_loss: 0.346397, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.574778
+traing: 800/1712, train_loss: 14.995153, bce_loss: 2.955349, q_bce_loss: 3.836017, v_bce_loss: 4.873067, debias_bce_loss: 2.984489, constrast_loss: 0.346230, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.582846
+traing: 900/1712, train_loss: 15.008116, bce_loss: 2.957803, q_bce_loss: 3.838442, v_bce_loss: 4.879242, debias_bce_loss: 2.986415, constrast_loss: 0.346214, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.589411
+traing: 1000/1712, train_loss: 15.002062, bce_loss: 2.956188, q_bce_loss: 3.835604, v_bce_loss: 4.879692, debias_bce_loss: 2.984402, constrast_loss: 0.346176, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.601955
+traing: 1100/1712, train_loss: 15.007863, bce_loss: 2.957894, q_bce_loss: 3.836215, v_bce_loss: 4.881544, debias_bce_loss: 2.986149, constrast_loss: 0.346061, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.574575
+traing: 1200/1712, train_loss: 15.007071, bce_loss: 2.957448, q_bce_loss: 3.836043, v_bce_loss: 4.882202, debias_bce_loss: 2.985418, constrast_loss: 0.345959, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.571942
+traing: 1300/1712, train_loss: 15.012311, bce_loss: 2.958130, q_bce_loss: 3.836743, v_bce_loss: 4.885034, debias_bce_loss: 2.986412, constrast_loss: 0.345992, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.549981
+traing: 1400/1712, train_loss: 15.018321, bce_loss: 2.959607, q_bce_loss: 3.838137, v_bce_loss: 4.886863, debias_bce_loss: 2.987863, constrast_loss: 0.345852, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.530693
+traing: 1500/1712, train_loss: 15.015876, bce_loss: 2.959098, q_bce_loss: 3.837301, v_bce_loss: 4.886521, debias_bce_loss: 2.987132, constrast_loss: 0.345824, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.533595
+traing: 1600/1712, train_loss: 15.015517, bce_loss: 2.959732, q_bce_loss: 3.835910, v_bce_loss: 4.886327, debias_bce_loss: 2.987819, constrast_loss: 0.345729, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.508628
+traing: 1700/1712, train_loss: 15.020059, bce_loss: 2.960766, q_bce_loss: 3.836513, v_bce_loss: 4.887893, debias_bce_loss: 2.989234, constrast_loss: 0.345653, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 67.499619
+
+lr: 0.0010000
+epoch 4, time: 462.83
+	train_loss: 15.01, norm: 4.1293, score: 67.46
+	eval score: 39.42 (91.34)
+	entropy:  3.76
+traing: 100/1712, train_loss: 14.495957, bce_loss: 2.810069, q_bce_loss: 3.770822, v_bce_loss: 4.732219, debias_bce_loss: 2.834094, constrast_loss: 0.348753, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.488283
+traing: 200/1712, train_loss: 14.541913, bce_loss: 2.826936, q_bce_loss: 3.777879, v_bce_loss: 4.739864, debias_bce_loss: 2.850383, constrast_loss: 0.346852, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.691408
+traing: 300/1712, train_loss: 14.564360, bce_loss: 2.834493, q_bce_loss: 3.771879, v_bce_loss: 4.753757, debias_bce_loss: 2.858039, constrast_loss: 0.346191, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.463544
+traing: 400/1712, train_loss: 14.584284, bce_loss: 2.839032, q_bce_loss: 3.772691, v_bce_loss: 4.763587, debias_bce_loss: 2.863153, constrast_loss: 0.345821, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.312827
+traing: 500/1712, train_loss: 14.612889, bce_loss: 2.845530, q_bce_loss: 3.772672, v_bce_loss: 4.778678, debias_bce_loss: 2.870440, constrast_loss: 0.345570, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.270314
+traing: 600/1712, train_loss: 14.623668, bce_loss: 2.846918, q_bce_loss: 3.773973, v_bce_loss: 4.785327, debias_bce_loss: 2.871919, constrast_loss: 0.345531, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.309681
+traing: 700/1712, train_loss: 14.633880, bce_loss: 2.847937, q_bce_loss: 3.773760, v_bce_loss: 4.792197, debias_bce_loss: 2.874712, constrast_loss: 0.345276, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.333149
+traing: 800/1712, train_loss: 14.650310, bce_loss: 2.851865, q_bce_loss: 3.776940, v_bce_loss: 4.797248, debias_bce_loss: 2.879044, constrast_loss: 0.345212, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.234865
+traing: 900/1712, train_loss: 14.661385, bce_loss: 2.854133, q_bce_loss: 3.777734, v_bce_loss: 4.803055, debias_bce_loss: 2.881401, constrast_loss: 0.345061, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.146848
+traing: 1000/1712, train_loss: 14.660030, bce_loss: 2.854149, q_bce_loss: 3.777261, v_bce_loss: 4.802427, debias_bce_loss: 2.881278, constrast_loss: 0.344915, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.138413
+traing: 1100/1712, train_loss: 14.680360, bce_loss: 2.858821, q_bce_loss: 3.781487, v_bce_loss: 4.808487, debias_bce_loss: 2.886737, constrast_loss: 0.344828, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.135892
+traing: 1200/1712, train_loss: 14.693946, bce_loss: 2.861303, q_bce_loss: 3.782751, v_bce_loss: 4.815654, debias_bce_loss: 2.889457, constrast_loss: 0.344781, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.099177
+traing: 1300/1712, train_loss: 14.701782, bce_loss: 2.863229, q_bce_loss: 3.783964, v_bce_loss: 4.818251, debias_bce_loss: 2.891632, constrast_loss: 0.344705, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.088243
+traing: 1400/1712, train_loss: 14.705172, bce_loss: 2.864762, q_bce_loss: 3.784319, v_bce_loss: 4.818400, debias_bce_loss: 2.893043, constrast_loss: 0.344649, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.043807
+traing: 1500/1712, train_loss: 14.711373, bce_loss: 2.866483, q_bce_loss: 3.785615, v_bce_loss: 4.819899, debias_bce_loss: 2.894811, constrast_loss: 0.344565, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.028040
+traing: 1600/1712, train_loss: 14.712437, bce_loss: 2.866850, q_bce_loss: 3.786148, v_bce_loss: 4.819637, debias_bce_loss: 2.895331, constrast_loss: 0.344471, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 69.000083
+traing: 1700/1712, train_loss: 14.713408, bce_loss: 2.867315, q_bce_loss: 3.785715, v_bce_loss: 4.820287, debias_bce_loss: 2.895686, constrast_loss: 0.344406, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 68.985296
+
+lr: 0.0010000
+epoch 5, time: 461.14
+	train_loss: 14.70, norm: 3.9238, score: 68.94
+	eval score: 39.91 (91.34)
+	entropy:  3.83
+traing: 100/1712, train_loss: 14.504672, bce_loss: 2.791774, q_bce_loss: 3.778488, v_bce_loss: 4.767221, debias_bce_loss: 2.820271, constrast_loss: 0.346918, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.214845
+traing: 200/1712, train_loss: 14.438138, bce_loss: 2.777228, q_bce_loss: 3.761718, v_bce_loss: 4.750454, debias_bce_loss: 2.802987, constrast_loss: 0.345751, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.780601
+traing: 300/1712, train_loss: 14.409308, bce_loss: 2.774039, q_bce_loss: 3.751264, v_bce_loss: 4.739862, debias_bce_loss: 2.798964, constrast_loss: 0.345180, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.681425
+traing: 400/1712, train_loss: 14.423849, bce_loss: 2.777301, q_bce_loss: 3.751053, v_bce_loss: 4.748721, debias_bce_loss: 2.801998, constrast_loss: 0.344776, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.701499
+traing: 500/1712, train_loss: 14.425469, bce_loss: 2.778083, q_bce_loss: 3.749696, v_bce_loss: 4.750454, debias_bce_loss: 2.802630, constrast_loss: 0.344607, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.586981
+traing: 600/1712, train_loss: 14.422398, bce_loss: 2.778278, q_bce_loss: 3.748724, v_bce_loss: 4.747387, debias_bce_loss: 2.803594, constrast_loss: 0.344414, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.499134
+traing: 700/1712, train_loss: 14.421577, bce_loss: 2.781005, q_bce_loss: 3.749798, v_bce_loss: 4.741143, debias_bce_loss: 2.805227, constrast_loss: 0.344405, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.425597
+traing: 800/1712, train_loss: 14.417207, bce_loss: 2.780305, q_bce_loss: 3.746487, v_bce_loss: 4.741330, debias_bce_loss: 2.804765, constrast_loss: 0.344319, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.400229
+traing: 900/1712, train_loss: 14.418620, bce_loss: 2.780853, q_bce_loss: 3.745619, v_bce_loss: 4.742939, debias_bce_loss: 2.805049, constrast_loss: 0.344160, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.357930
+traing: 1000/1712, train_loss: 14.420630, bce_loss: 2.781526, q_bce_loss: 3.744596, v_bce_loss: 4.744438, debias_bce_loss: 2.805978, constrast_loss: 0.344092, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.316017
+traing: 1100/1712, train_loss: 14.414314, bce_loss: 2.780984, q_bce_loss: 3.741992, v_bce_loss: 4.741433, debias_bce_loss: 2.805973, constrast_loss: 0.343933, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.249291
+traing: 1200/1712, train_loss: 14.411240, bce_loss: 2.780958, q_bce_loss: 3.740216, v_bce_loss: 4.739825, debias_bce_loss: 2.806495, constrast_loss: 0.343747, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.249133
+traing: 1300/1712, train_loss: 14.418022, bce_loss: 2.782669, q_bce_loss: 3.739752, v_bce_loss: 4.744011, debias_bce_loss: 2.807966, constrast_loss: 0.343624, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.240987
+traing: 1400/1712, train_loss: 14.425450, bce_loss: 2.784665, q_bce_loss: 3.741472, v_bce_loss: 4.745270, debias_bce_loss: 2.810469, constrast_loss: 0.343574, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.222100
+traing: 1500/1712, train_loss: 14.429332, bce_loss: 2.785624, q_bce_loss: 3.740381, v_bce_loss: 4.748295, debias_bce_loss: 2.811502, constrast_loss: 0.343530, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.231512
+traing: 1600/1712, train_loss: 14.444422, bce_loss: 2.788617, q_bce_loss: 3.744058, v_bce_loss: 4.753622, debias_bce_loss: 2.814611, constrast_loss: 0.343513, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.206870
+traing: 1700/1712, train_loss: 14.453139, bce_loss: 2.790508, q_bce_loss: 3.745758, v_bce_loss: 4.756537, debias_bce_loss: 2.816873, constrast_loss: 0.343463, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 70.172872
+
+lr: 0.0010000
+epoch 6, time: 460.45
+	train_loss: 14.45, norm: 3.7283, score: 70.13
+	eval score: 40.25 (91.34)
+	entropy:  3.71
+traing: 100/1712, train_loss: 14.292788, bce_loss: 2.729459, q_bce_loss: 3.742816, v_bce_loss: 4.723301, debias_bce_loss: 2.750569, constrast_loss: 0.346643, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.194012
+traing: 200/1712, train_loss: 14.221987, bce_loss: 2.711503, q_bce_loss: 3.723755, v_bce_loss: 4.706762, debias_bce_loss: 2.735241, constrast_loss: 0.344725, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.935549
+traing: 300/1712, train_loss: 14.253950, bce_loss: 2.714456, q_bce_loss: 3.731420, v_bce_loss: 4.724484, debias_bce_loss: 2.739039, constrast_loss: 0.344551, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.838977
+traing: 400/1712, train_loss: 14.254104, bce_loss: 2.715561, q_bce_loss: 3.728693, v_bce_loss: 4.723788, debias_bce_loss: 2.741987, constrast_loss: 0.344074, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.704754
+traing: 500/1712, train_loss: 14.211799, bce_loss: 2.706754, q_bce_loss: 3.716658, v_bce_loss: 4.710320, debias_bce_loss: 2.734105, constrast_loss: 0.343963, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.722137
+traing: 600/1712, train_loss: 14.226120, bce_loss: 2.711154, q_bce_loss: 3.721763, v_bce_loss: 4.710027, debias_bce_loss: 2.739361, constrast_loss: 0.343815, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.654950
+traing: 700/1712, train_loss: 14.217984, bce_loss: 2.710794, q_bce_loss: 3.719913, v_bce_loss: 4.704888, debias_bce_loss: 2.738818, constrast_loss: 0.343571, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.597286
+traing: 800/1712, train_loss: 14.209493, bce_loss: 2.708969, q_bce_loss: 3.716718, v_bce_loss: 4.703206, debias_bce_loss: 2.737151, constrast_loss: 0.343448, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.582033
+traing: 900/1712, train_loss: 14.206784, bce_loss: 2.708828, q_bce_loss: 3.714907, v_bce_loss: 4.702716, debias_bce_loss: 2.736984, constrast_loss: 0.343348, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.541524
+traing: 1000/1712, train_loss: 14.212586, bce_loss: 2.710983, q_bce_loss: 3.715894, v_bce_loss: 4.703105, debias_bce_loss: 2.739343, constrast_loss: 0.343260, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.477345
+traing: 1100/1712, train_loss: 14.218836, bce_loss: 2.713639, q_bce_loss: 3.714811, v_bce_loss: 4.705090, debias_bce_loss: 2.742167, constrast_loss: 0.343129, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.415366
+traing: 1200/1712, train_loss: 14.221751, bce_loss: 2.715804, q_bce_loss: 3.713541, v_bce_loss: 4.705110, debias_bce_loss: 2.744237, constrast_loss: 0.343059, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.340496
+traing: 1300/1712, train_loss: 14.222529, bce_loss: 2.716606, q_bce_loss: 3.711755, v_bce_loss: 4.706224, debias_bce_loss: 2.745009, constrast_loss: 0.342934, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.293772
+traing: 1400/1712, train_loss: 14.221486, bce_loss: 2.717024, q_bce_loss: 3.710567, v_bce_loss: 4.706110, debias_bce_loss: 2.744897, constrast_loss: 0.342889, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.262185
+traing: 1500/1712, train_loss: 14.231104, bce_loss: 2.719277, q_bce_loss: 3.712735, v_bce_loss: 4.708746, debias_bce_loss: 2.747541, constrast_loss: 0.342805, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.233682
+traing: 1600/1712, train_loss: 14.236279, bce_loss: 2.721363, q_bce_loss: 3.712895, v_bce_loss: 4.709659, debias_bce_loss: 2.749643, constrast_loss: 0.342719, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.199871
+traing: 1700/1712, train_loss: 14.240398, bce_loss: 2.723033, q_bce_loss: 3.713435, v_bce_loss: 4.709927, debias_bce_loss: 2.751345, constrast_loss: 0.342658, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 71.179153
+
+lr: 0.0010000
+epoch 7, time: 463.21
+	train_loss: 14.23, norm: 3.5940, score: 71.13
+	eval score: 40.76 (91.34)
+	entropy:  3.61
+traing: 100/1712, train_loss: 13.957018, bce_loss: 2.628338, q_bce_loss: 3.685879, v_bce_loss: 4.635477, debias_bce_loss: 2.660830, constrast_loss: 0.346495, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 73.901043
+traing: 200/1712, train_loss: 13.932074, bce_loss: 2.630811, q_bce_loss: 3.674337, v_bce_loss: 4.619908, debias_bce_loss: 2.662685, constrast_loss: 0.344332, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 73.180340
+traing: 300/1712, train_loss: 13.952773, bce_loss: 2.634217, q_bce_loss: 3.678518, v_bce_loss: 4.630549, debias_bce_loss: 2.665415, constrast_loss: 0.344075, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 73.024307
+traing: 400/1712, train_loss: 13.973676, bce_loss: 2.639006, q_bce_loss: 3.679457, v_bce_loss: 4.641587, debias_bce_loss: 2.669930, constrast_loss: 0.343695, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.870444
+traing: 500/1712, train_loss: 13.956276, bce_loss: 2.636237, q_bce_loss: 3.673793, v_bce_loss: 4.636985, debias_bce_loss: 2.666024, constrast_loss: 0.343236, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.746877
+traing: 600/1712, train_loss: 13.954469, bce_loss: 2.639370, q_bce_loss: 3.670725, v_bce_loss: 4.631876, debias_bce_loss: 2.669425, constrast_loss: 0.343073, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.672311
+traing: 700/1712, train_loss: 13.967807, bce_loss: 2.642834, q_bce_loss: 3.676167, v_bce_loss: 4.632685, debias_bce_loss: 2.673232, constrast_loss: 0.342890, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.539436
+traing: 800/1712, train_loss: 13.989479, bce_loss: 2.647624, q_bce_loss: 3.680600, v_bce_loss: 4.639925, debias_bce_loss: 2.678522, constrast_loss: 0.342808, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.485516
+traing: 900/1712, train_loss: 14.003880, bce_loss: 2.652137, q_bce_loss: 3.683027, v_bce_loss: 4.643047, debias_bce_loss: 2.683006, constrast_loss: 0.342663, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.407264
+traing: 1000/1712, train_loss: 14.025146, bce_loss: 2.657759, q_bce_loss: 3.686818, v_bce_loss: 4.649820, debias_bce_loss: 2.688181, constrast_loss: 0.342568, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.356122
+traing: 1100/1712, train_loss: 14.036615, bce_loss: 2.661553, q_bce_loss: 3.687960, v_bce_loss: 4.653204, debias_bce_loss: 2.691493, constrast_loss: 0.342406, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.274031
+traing: 1200/1712, train_loss: 14.026285, bce_loss: 2.659829, q_bce_loss: 3.684865, v_bce_loss: 4.649671, debias_bce_loss: 2.689647, constrast_loss: 0.342273, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.254559
+traing: 1300/1712, train_loss: 14.030863, bce_loss: 2.661598, q_bce_loss: 3.684408, v_bce_loss: 4.650992, debias_bce_loss: 2.691678, constrast_loss: 0.342188, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.195815
+traing: 1400/1712, train_loss: 14.039472, bce_loss: 2.663486, q_bce_loss: 3.686501, v_bce_loss: 4.654043, debias_bce_loss: 2.693373, constrast_loss: 0.342069, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.144161
+traing: 1500/1712, train_loss: 14.042320, bce_loss: 2.664809, q_bce_loss: 3.687026, v_bce_loss: 4.653627, debias_bce_loss: 2.694866, constrast_loss: 0.341992, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.127172
+traing: 1600/1712, train_loss: 14.042384, bce_loss: 2.665020, q_bce_loss: 3.685374, v_bce_loss: 4.654580, debias_bce_loss: 2.695482, constrast_loss: 0.341928, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.098309
+traing: 1700/1712, train_loss: 14.045414, bce_loss: 2.665609, q_bce_loss: 3.686120, v_bce_loss: 4.655614, debias_bce_loss: 2.696208, constrast_loss: 0.341863, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 72.084024
+
+lr: 0.0010000
+epoch 8, time: 470.27
+	train_loss: 14.04, norm: 3.4978, score: 72.04
+	eval score: 40.59 (91.34)
+	entropy:  3.68
+traing: 100/1712, train_loss: 13.682708, bce_loss: 2.568363, q_bce_loss: 3.660956, v_bce_loss: 4.530407, debias_bce_loss: 2.578686, constrast_loss: 0.344296, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.652346
+traing: 200/1712, train_loss: 13.562327, bce_loss: 2.543539, q_bce_loss: 3.616308, v_bce_loss: 4.504875, debias_bce_loss: 2.555100, constrast_loss: 0.342505, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.445965
+traing: 300/1712, train_loss: 13.524787, bce_loss: 2.533801, q_bce_loss: 3.609416, v_bce_loss: 4.493823, debias_bce_loss: 2.546249, constrast_loss: 0.341497, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.400176
+traing: 400/1712, train_loss: 13.507631, bce_loss: 2.529227, q_bce_loss: 3.607966, v_bce_loss: 4.487589, debias_bce_loss: 2.541988, constrast_loss: 0.340860, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.450848
+traing: 500/1712, train_loss: 13.522623, bce_loss: 2.530814, q_bce_loss: 3.612842, v_bce_loss: 4.494397, debias_bce_loss: 2.544057, constrast_loss: 0.340512, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.437762
+traing: 600/1712, train_loss: 13.528902, bce_loss: 2.533129, q_bce_loss: 3.614134, v_bce_loss: 4.495001, debias_bce_loss: 2.546415, constrast_loss: 0.340223, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.415150
+traing: 700/1712, train_loss: 13.534796, bce_loss: 2.535602, q_bce_loss: 3.613169, v_bce_loss: 4.495875, debias_bce_loss: 2.550170, constrast_loss: 0.339980, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.378350
+traing: 800/1712, train_loss: 13.531383, bce_loss: 2.535182, q_bce_loss: 3.613244, v_bce_loss: 4.493289, debias_bce_loss: 2.549855, constrast_loss: 0.339814, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.348635
+traing: 900/1712, train_loss: 13.533551, bce_loss: 2.535653, q_bce_loss: 3.613312, v_bce_loss: 4.493967, debias_bce_loss: 2.550943, constrast_loss: 0.339677, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.285014
+traing: 1000/1712, train_loss: 13.518198, bce_loss: 2.531587, q_bce_loss: 3.608963, v_bce_loss: 4.490603, debias_bce_loss: 2.547510, constrast_loss: 0.339535, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.320184
+traing: 1100/1712, train_loss: 13.523099, bce_loss: 2.533326, q_bce_loss: 3.611358, v_bce_loss: 4.490039, debias_bce_loss: 2.548974, constrast_loss: 0.339401, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.287762
+traing: 1200/1712, train_loss: 13.513428, bce_loss: 2.530747, q_bce_loss: 3.609540, v_bce_loss: 4.487032, debias_bce_loss: 2.546820, constrast_loss: 0.339289, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.305666
+traing: 1300/1712, train_loss: 13.499285, bce_loss: 2.528013, q_bce_loss: 3.605356, v_bce_loss: 4.483176, debias_bce_loss: 2.543581, constrast_loss: 0.339158, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.280551
+traing: 1400/1712, train_loss: 13.504290, bce_loss: 2.529045, q_bce_loss: 3.607237, v_bce_loss: 4.484153, debias_bce_loss: 2.544811, constrast_loss: 0.339044, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.275579
+traing: 1500/1712, train_loss: 13.497907, bce_loss: 2.527189, q_bce_loss: 3.604714, v_bce_loss: 4.483817, debias_bce_loss: 2.543242, constrast_loss: 0.338946, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.299915
+traing: 1600/1712, train_loss: 13.499121, bce_loss: 2.527312, q_bce_loss: 3.605625, v_bce_loss: 4.484003, debias_bce_loss: 2.543286, constrast_loss: 0.338895, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.274253
+traing: 1700/1712, train_loss: 13.504710, bce_loss: 2.528126, q_bce_loss: 3.606975, v_bce_loss: 4.486429, debias_bce_loss: 2.544352, constrast_loss: 0.338828, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 74.261567
+
+lr: 0.0005000
+epoch 9, time: 469.84
+	train_loss: 13.50, norm: 3.6560, score: 74.21
+	eval score: 41.15 (91.34)
+	entropy:  3.57
+traing: 100/1712, train_loss: 13.347032, bce_loss: 2.470553, q_bce_loss: 3.601105, v_bce_loss: 4.437291, debias_bce_loss: 2.496483, constrast_loss: 0.341600, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.147137
+traing: 200/1712, train_loss: 13.233976, bce_loss: 2.446463, q_bce_loss: 3.567198, v_bce_loss: 4.410907, debias_bce_loss: 2.469631, constrast_loss: 0.339777, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.988934
+traing: 300/1712, train_loss: 13.228695, bce_loss: 2.444811, q_bce_loss: 3.562690, v_bce_loss: 4.414520, debias_bce_loss: 2.467456, constrast_loss: 0.339217, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.753474
+traing: 400/1712, train_loss: 13.250161, bce_loss: 2.448515, q_bce_loss: 3.567320, v_bce_loss: 4.424528, debias_bce_loss: 2.471048, constrast_loss: 0.338750, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.665366
+traing: 500/1712, train_loss: 13.249599, bce_loss: 2.448866, q_bce_loss: 3.565666, v_bce_loss: 4.425675, debias_bce_loss: 2.470818, constrast_loss: 0.338574, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.504950
+traing: 600/1712, train_loss: 13.271876, bce_loss: 2.453272, q_bce_loss: 3.569566, v_bce_loss: 4.434478, debias_bce_loss: 2.476193, constrast_loss: 0.338367, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.485245
+traing: 700/1712, train_loss: 13.277821, bce_loss: 2.455352, q_bce_loss: 3.570405, v_bce_loss: 4.435831, debias_bce_loss: 2.477953, constrast_loss: 0.338281, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.454801
+traing: 800/1712, train_loss: 13.278472, bce_loss: 2.454798, q_bce_loss: 3.570358, v_bce_loss: 4.437184, debias_bce_loss: 2.477924, constrast_loss: 0.338208, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.435223
+traing: 900/1712, train_loss: 13.272853, bce_loss: 2.454671, q_bce_loss: 3.567877, v_bce_loss: 4.434337, debias_bce_loss: 2.477925, constrast_loss: 0.338045, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.425349
+traing: 1000/1712, train_loss: 13.290087, bce_loss: 2.458686, q_bce_loss: 3.573088, v_bce_loss: 4.438449, debias_bce_loss: 2.481918, constrast_loss: 0.337944, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.367970
+traing: 1100/1712, train_loss: 13.297964, bce_loss: 2.460806, q_bce_loss: 3.574476, v_bce_loss: 4.440536, debias_bce_loss: 2.484253, constrast_loss: 0.337893, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.364348
+traing: 1200/1712, train_loss: 13.295783, bce_loss: 2.460458, q_bce_loss: 3.573255, v_bce_loss: 4.440701, debias_bce_loss: 2.483518, constrast_loss: 0.337851, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.328669
+traing: 1300/1712, train_loss: 13.295657, bce_loss: 2.460755, q_bce_loss: 3.572498, v_bce_loss: 4.440536, debias_bce_loss: 2.484053, constrast_loss: 0.337816, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.308796
+traing: 1400/1712, train_loss: 13.300892, bce_loss: 2.461578, q_bce_loss: 3.573841, v_bce_loss: 4.442836, debias_bce_loss: 2.484906, constrast_loss: 0.337731, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.292691
+traing: 1500/1712, train_loss: 13.307945, bce_loss: 2.463297, q_bce_loss: 3.575422, v_bce_loss: 4.444707, debias_bce_loss: 2.486873, constrast_loss: 0.337646, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.262068
+traing: 1600/1712, train_loss: 13.315867, bce_loss: 2.465284, q_bce_loss: 3.577293, v_bce_loss: 4.447157, debias_bce_loss: 2.488552, constrast_loss: 0.337582, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.235435
+traing: 1700/1712, train_loss: 13.319857, bce_loss: 2.466746, q_bce_loss: 3.578936, v_bce_loss: 4.446763, debias_bce_loss: 2.489892, constrast_loss: 0.337520, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.221739
+
+lr: 0.0005000
+epoch 10, time: 3983.92
+	train_loss: 13.31, norm: 4.0867, score: 75.18
+	eval score: 41.16 (91.34)
+	entropy:  3.59
+traing: 100/1712, train_loss: 13.208109, bce_loss: 2.422255, q_bce_loss: 3.584413, v_bce_loss: 4.412755, debias_bce_loss: 2.447646, constrast_loss: 0.341040, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 77.041668
+traing: 200/1712, train_loss: 13.211965, bce_loss: 2.425182, q_bce_loss: 3.578352, v_bce_loss: 4.418414, debias_bce_loss: 2.450619, constrast_loss: 0.339398, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.516929
+traing: 300/1712, train_loss: 13.192424, bce_loss: 2.420648, q_bce_loss: 3.579002, v_bce_loss: 4.408237, debias_bce_loss: 2.445958, constrast_loss: 0.338578, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.296443
+traing: 400/1712, train_loss: 13.197822, bce_loss: 2.424472, q_bce_loss: 3.575555, v_bce_loss: 4.410983, debias_bce_loss: 2.448636, constrast_loss: 0.338177, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.265301
+traing: 500/1712, train_loss: 13.175970, bce_loss: 2.419500, q_bce_loss: 3.571662, v_bce_loss: 4.402058, debias_bce_loss: 2.444853, constrast_loss: 0.337897, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.260939
+traing: 600/1712, train_loss: 13.169336, bce_loss: 2.418258, q_bce_loss: 3.569378, v_bce_loss: 4.400431, debias_bce_loss: 2.443572, constrast_loss: 0.337697, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.218969
+traing: 700/1712, train_loss: 13.168547, bce_loss: 2.418799, q_bce_loss: 3.566555, v_bce_loss: 4.401137, debias_bce_loss: 2.444536, constrast_loss: 0.337521, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.187130
+traing: 800/1712, train_loss: 13.164675, bce_loss: 2.419154, q_bce_loss: 3.563920, v_bce_loss: 4.399437, debias_bce_loss: 2.444711, constrast_loss: 0.337453, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.121258
+traing: 900/1712, train_loss: 13.168839, bce_loss: 2.420341, q_bce_loss: 3.562995, v_bce_loss: 4.401864, debias_bce_loss: 2.446240, constrast_loss: 0.337399, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.074076
+traing: 1000/1712, train_loss: 13.169752, bce_loss: 2.420107, q_bce_loss: 3.562921, v_bce_loss: 4.402929, debias_bce_loss: 2.446425, constrast_loss: 0.337371, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.020444
+traing: 1100/1712, train_loss: 13.164943, bce_loss: 2.418979, q_bce_loss: 3.560309, v_bce_loss: 4.402555, debias_bce_loss: 2.445767, constrast_loss: 0.337333, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.015627
+traing: 1200/1712, train_loss: 13.165573, bce_loss: 2.419053, q_bce_loss: 3.559880, v_bce_loss: 4.402961, debias_bce_loss: 2.446408, constrast_loss: 0.337271, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.010527
+traing: 1300/1712, train_loss: 13.174940, bce_loss: 2.420929, q_bce_loss: 3.561434, v_bce_loss: 4.406950, debias_bce_loss: 2.448413, constrast_loss: 0.337213, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 76.004008
+traing: 1400/1712, train_loss: 13.178336, bce_loss: 2.422431, q_bce_loss: 3.561415, v_bce_loss: 4.407167, debias_bce_loss: 2.450144, constrast_loss: 0.337178, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.962520
+traing: 1500/1712, train_loss: 13.183029, bce_loss: 2.423356, q_bce_loss: 3.561180, v_bce_loss: 4.409855, debias_bce_loss: 2.451494, constrast_loss: 0.337145, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.938717
+traing: 1600/1712, train_loss: 13.191026, bce_loss: 2.424970, q_bce_loss: 3.562729, v_bce_loss: 4.412781, debias_bce_loss: 2.453413, constrast_loss: 0.337132, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.934979
+traing: 1700/1712, train_loss: 13.196634, bce_loss: 2.426494, q_bce_loss: 3.564481, v_bce_loss: 4.413968, debias_bce_loss: 2.454575, constrast_loss: 0.337115, self_loss: 0.000000, neg_train_q_acc: 0.000000, neg_train_v_acc: 0.000000, pos_train_acc: 75.911001
+
+lr: 0.0005000
+epoch 11, time: 525.24
+	train_loss: 13.19, norm: 4.3558, score: 75.87
+	eval score: 41.26 (91.34)
+	entropy:  3.60
+traing: 100/1712, train_loss: 14.342710, bce_loss: 2.426414, q_bce_loss: 3.574447, v_bce_loss: 4.378863, debias_bce_loss: 2.428002, constrast_loss: 0.340630, self_loss: 0.398118, neg_train_q_acc: 14.188802, neg_train_v_acc: 42.988282, pos_train_acc: 76.770835
+traing: 200/1712, train_loss: 14.241068, bce_loss: 2.424241, q_bce_loss: 3.551147, v_bce_loss: 4.366337, debias_bce_loss: 2.413521, constrast_loss: 0.339069, self_loss: 0.382251, neg_train_q_acc: 14.064453, neg_train_v_acc: 41.819011, pos_train_acc: 75.869793
+traing: 300/1712, train_loss: 14.254526, bce_loss: 2.449748, q_bce_loss: 3.556590, v_bce_loss: 4.374791, debias_bce_loss: 2.423875, constrast_loss: 0.338181, self_loss: 0.370447, neg_train_q_acc: 13.976129, neg_train_v_acc: 40.866320, pos_train_acc: 74.986113
+traing: 400/1712, train_loss: 14.217803, bce_loss: 2.464091, q_bce_loss: 3.544205, v_bce_loss: 4.367394, debias_bce_loss: 2.422897, constrast_loss: 0.337889, self_loss: 0.360442, neg_train_q_acc: 13.919922, neg_train_v_acc: 39.859701, pos_train_acc: 74.318687
+traing: 500/1712, train_loss: 14.225905, bce_loss: 2.480937, q_bce_loss: 3.549018, v_bce_loss: 4.371844, debias_bce_loss: 2.430886, constrast_loss: 0.337725, self_loss: 0.351831, neg_train_q_acc: 13.773177, neg_train_v_acc: 38.980470, pos_train_acc: 73.773439
+traing: 600/1712, train_loss: 14.223617, bce_loss: 2.493190, q_bce_loss: 3.552912, v_bce_loss: 4.367333, debias_bce_loss: 2.436379, constrast_loss: 0.337550, self_loss: 0.345418, neg_train_q_acc: 13.726129, neg_train_v_acc: 38.254558, pos_train_acc: 73.435549
+traing: 700/1712, train_loss: 14.220824, bce_loss: 2.500276, q_bce_loss: 3.556112, v_bce_loss: 4.367210, debias_bce_loss: 2.439473, constrast_loss: 0.337434, self_loss: 0.340106, neg_train_q_acc: 13.733631, neg_train_v_acc: 37.650670, pos_train_acc: 73.270277
+traing: 800/1712, train_loss: 14.209962, bce_loss: 2.503296, q_bce_loss: 3.557318, v_bce_loss: 4.364843, debias_bce_loss: 2.440192, constrast_loss: 0.337444, self_loss: 0.335623, neg_train_q_acc: 13.714030, neg_train_v_acc: 37.174317, pos_train_acc: 73.191733
+traing: 900/1712, train_loss: 14.186405, bce_loss: 2.503747, q_bce_loss: 3.552528, v_bce_loss: 4.358144, debias_bce_loss: 2.438880, constrast_loss: 0.337403, self_loss: 0.331901, neg_train_q_acc: 13.734665, neg_train_v_acc: 36.786314, pos_train_acc: 73.094620
+traing: 1000/1712, train_loss: 14.175765, bce_loss: 2.505380, q_bce_loss: 3.552473, v_bce_loss: 4.355574, debias_bce_loss: 2.439755, constrast_loss: 0.337336, self_loss: 0.328416, neg_train_q_acc: 13.726823, neg_train_v_acc: 36.408074, pos_train_acc: 73.080861
+traing: 1100/1712, train_loss: 14.181557, bce_loss: 2.509583, q_bce_loss: 3.555645, v_bce_loss: 4.359510, debias_bce_loss: 2.444471, constrast_loss: 0.337352, self_loss: 0.324998, neg_train_q_acc: 13.686553, neg_train_v_acc: 36.053031, pos_train_acc: 73.038236
+traing: 1200/1712, train_loss: 14.168237, bce_loss: 2.509698, q_bce_loss: 3.554705, v_bce_loss: 4.355919, debias_bce_loss: 2.444941, constrast_loss: 0.337308, self_loss: 0.321888, neg_train_q_acc: 13.685656, neg_train_v_acc: 35.726021, pos_train_acc: 73.020618
+traing: 1300/1712, train_loss: 14.160996, bce_loss: 2.510946, q_bce_loss: 3.555049, v_bce_loss: 4.353386, debias_bce_loss: 2.447344, constrast_loss: 0.337274, self_loss: 0.318999, neg_train_q_acc: 13.667568, neg_train_v_acc: 35.430690, pos_train_acc: 72.995094
+traing: 1400/1712, train_loss: 14.154625, bce_loss: 2.511878, q_bce_loss: 3.555496, v_bce_loss: 4.351988, debias_bce_loss: 2.448901, constrast_loss: 0.337264, self_loss: 0.316366, neg_train_q_acc: 13.642299, neg_train_v_acc: 35.159320, pos_train_acc: 72.996746
+traing: 1500/1712, train_loss: 14.155199, bce_loss: 2.513698, q_bce_loss: 3.556739, v_bce_loss: 4.352817, debias_bce_loss: 2.451973, constrast_loss: 0.337236, self_loss: 0.314246, neg_train_q_acc: 13.633073, neg_train_v_acc: 34.913195, pos_train_acc: 72.975870
+traing: 1600/1712, train_loss: 14.147757, bce_loss: 2.513031, q_bce_loss: 3.557447, v_bce_loss: 4.351061, debias_bce_loss: 2.452472, constrast_loss: 0.337233, self_loss: 0.312171, neg_train_q_acc: 13.628011, neg_train_v_acc: 34.690837, pos_train_acc: 73.036541
+traing: 1700/1712, train_loss: 14.146958, bce_loss: 2.514313, q_bce_loss: 3.558792, v_bce_loss: 4.350820, debias_bce_loss: 2.454589, constrast_loss: 0.337223, self_loss: 0.310407, neg_train_q_acc: 13.602176, neg_train_v_acc: 34.518919, pos_train_acc: 73.048562
+
+lr: 0.0005000
+epoch 12, time: 691.64
+	train_loss: 14.14, norm: 4.5442, score: 73.01
+	eval score: 55.27 (91.34)
+	entropy:  3.48
+traing: 100/1712, train_loss: 13.911687, bce_loss: 2.467319, q_bce_loss: 3.564921, v_bce_loss: 4.272569, debias_bce_loss: 2.427788, constrast_loss: 0.340546, self_loss: 0.279515, neg_train_q_acc: 13.518230, neg_train_v_acc: 31.760418, pos_train_acc: 75.497398
+traing: 200/1712, train_loss: 13.868954, bce_loss: 2.465632, q_bce_loss: 3.551013, v_bce_loss: 4.254506, debias_bce_loss: 2.425667, constrast_loss: 0.338416, self_loss: 0.277907, neg_train_q_acc: 13.543620, neg_train_v_acc: 31.580079, pos_train_acc: 74.992841
+traing: 300/1712, train_loss: 13.840159, bce_loss: 2.459637, q_bce_loss: 3.544078, v_bce_loss: 4.247315, debias_bce_loss: 2.421749, constrast_loss: 0.337864, self_loss: 0.276505, neg_train_q_acc: 13.488282, neg_train_v_acc: 31.403213, pos_train_acc: 74.909724
+traing: 400/1712, train_loss: 13.824994, bce_loss: 2.458201, q_bce_loss: 3.546896, v_bce_loss: 4.239162, debias_bce_loss: 2.420242, constrast_loss: 0.337862, self_loss: 0.274210, neg_train_q_acc: 13.464193, neg_train_v_acc: 31.179688, pos_train_acc: 74.911786
+traing: 500/1712, train_loss: 13.825172, bce_loss: 2.458196, q_bce_loss: 3.547842, v_bce_loss: 4.238947, debias_bce_loss: 2.422501, constrast_loss: 0.337776, self_loss: 0.273303, neg_train_q_acc: 13.456771, neg_train_v_acc: 31.024480, pos_train_acc: 74.798700
+traing: 600/1712, train_loss: 13.824300, bce_loss: 2.459579, q_bce_loss: 3.545656, v_bce_loss: 4.239336, debias_bce_loss: 2.424149, constrast_loss: 0.337708, self_loss: 0.272624, neg_train_q_acc: 13.439019, neg_train_v_acc: 31.001520, pos_train_acc: 74.769533
+traing: 700/1712, train_loss: 13.828025, bce_loss: 2.462529, q_bce_loss: 3.548929, v_bce_loss: 4.238323, debias_bce_loss: 2.427606, constrast_loss: 0.337654, self_loss: 0.270994, neg_train_q_acc: 13.413877, neg_train_v_acc: 30.834078, pos_train_acc: 74.735121
+traing: 800/1712, train_loss: 13.827336, bce_loss: 2.463062, q_bce_loss: 3.549930, v_bce_loss: 4.237122, debias_bce_loss: 2.427934, constrast_loss: 0.337584, self_loss: 0.270568, neg_train_q_acc: 13.437989, neg_train_v_acc: 30.768230, pos_train_acc: 74.714195
+traing: 900/1712, train_loss: 13.825169, bce_loss: 2.463893, q_bce_loss: 3.548635, v_bce_loss: 4.234634, debias_bce_loss: 2.429234, constrast_loss: 0.337514, self_loss: 0.270420, neg_train_q_acc: 13.444879, neg_train_v_acc: 30.762154, pos_train_acc: 74.678821
+traing: 1000/1712, train_loss: 13.832132, bce_loss: 2.466356, q_bce_loss: 3.549589, v_bce_loss: 4.237790, debias_bce_loss: 2.431915, constrast_loss: 0.337478, self_loss: 0.269668, neg_train_q_acc: 13.419532, neg_train_v_acc: 30.728777, pos_train_acc: 74.630340
+traing: 1100/1712, train_loss: 13.836121, bce_loss: 2.467473, q_bce_loss: 3.550622, v_bce_loss: 4.239285, debias_bce_loss: 2.433682, constrast_loss: 0.337416, self_loss: 0.269214, neg_train_q_acc: 13.414536, neg_train_v_acc: 30.689750, pos_train_acc: 74.659803
+traing: 1200/1712, train_loss: 13.833255, bce_loss: 2.467472, q_bce_loss: 3.550562, v_bce_loss: 4.238184, debias_bce_loss: 2.434146, constrast_loss: 0.337357, self_loss: 0.268511, neg_train_q_acc: 13.408312, neg_train_v_acc: 30.609701, pos_train_acc: 74.678387
+traing: 1300/1712, train_loss: 13.828314, bce_loss: 2.466623, q_bce_loss: 3.549717, v_bce_loss: 4.236917, debias_bce_loss: 2.433458, constrast_loss: 0.337341, self_loss: 0.268086, neg_train_q_acc: 13.418270, neg_train_v_acc: 30.552986, pos_train_acc: 74.672979
+traing: 1400/1712, train_loss: 13.825387, bce_loss: 2.466392, q_bce_loss: 3.548914, v_bce_loss: 4.235823, debias_bce_loss: 2.433693, constrast_loss: 0.337312, self_loss: 0.267751, neg_train_q_acc: 13.421968, neg_train_v_acc: 30.518788, pos_train_acc: 74.677922
+traing: 1500/1712, train_loss: 13.830166, bce_loss: 2.467559, q_bce_loss: 3.549522, v_bce_loss: 4.238003, debias_bce_loss: 2.435493, constrast_loss: 0.337298, self_loss: 0.267431, neg_train_q_acc: 13.431598, neg_train_v_acc: 30.489150, pos_train_acc: 74.667971
+traing: 1600/1712, train_loss: 13.827494, bce_loss: 2.467617, q_bce_loss: 3.549049, v_bce_loss: 4.237061, debias_bce_loss: 2.435795, constrast_loss: 0.337245, self_loss: 0.266909, neg_train_q_acc: 13.428793, neg_train_v_acc: 30.456707, pos_train_acc: 74.663983
+traing: 1700/1712, train_loss: 13.836054, bce_loss: 2.470110, q_bce_loss: 3.551211, v_bce_loss: 4.239992, debias_bce_loss: 2.438360, constrast_loss: 0.337236, self_loss: 0.266382, neg_train_q_acc: 13.411305, neg_train_v_acc: 30.416974, pos_train_acc: 74.615351
+
+lr: 0.0005000
+epoch 13, time: 699.97
+	train_loss: 13.83, norm: 4.5347, score: 74.57
+	eval score: 58.91 (91.34)
+	entropy:  3.55
+traing: 100/1712, train_loss: 13.727171, bce_loss: 2.452851, q_bce_loss: 3.569508, v_bce_loss: 4.165094, debias_bce_loss: 2.414990, constrast_loss: 0.339700, self_loss: 0.261676, neg_train_q_acc: 13.701823, neg_train_v_acc: 30.091147, pos_train_acc: 76.256513
+traing: 200/1712, train_loss: 13.572273, bce_loss: 2.422270, q_bce_loss: 3.524131, v_bce_loss: 4.120741, debias_bce_loss: 2.381860, constrast_loss: 0.338006, self_loss: 0.261755, neg_train_q_acc: 13.559245, neg_train_v_acc: 30.106772, pos_train_acc: 76.106122
+traing: 300/1712, train_loss: 13.517223, bce_loss: 2.411294, q_bce_loss: 3.513638, v_bce_loss: 4.105902, debias_bce_loss: 2.369356, constrast_loss: 0.337289, self_loss: 0.259915, neg_train_q_acc: 13.455295, neg_train_v_acc: 29.863716, pos_train_acc: 76.072051
+traing: 400/1712, train_loss: 13.504604, bce_loss: 2.408092, q_bce_loss: 3.510058, v_bce_loss: 4.105308, debias_bce_loss: 2.367410, constrast_loss: 0.336907, self_loss: 0.258943, neg_train_q_acc: 13.422852, neg_train_v_acc: 29.782878, pos_train_acc: 76.038739
+traing: 500/1712, train_loss: 13.493112, bce_loss: 2.404962, q_bce_loss: 3.509191, v_bce_loss: 4.101069, debias_bce_loss: 2.364195, constrast_loss: 0.336546, self_loss: 0.259050, neg_train_q_acc: 13.426042, neg_train_v_acc: 29.745313, pos_train_acc: 76.005991
+traing: 600/1712, train_loss: 13.481183, bce_loss: 2.401854, q_bce_loss: 3.508750, v_bce_loss: 4.099314, debias_bce_loss: 2.361183, constrast_loss: 0.336307, self_loss: 0.257925, neg_train_q_acc: 13.338108, neg_train_v_acc: 29.683594, pos_train_acc: 76.072268
+traing: 700/1712, train_loss: 13.462275, bce_loss: 2.395646, q_bce_loss: 3.503553, v_bce_loss: 4.097107, debias_bce_loss: 2.356576, constrast_loss: 0.336093, self_loss: 0.257767, neg_train_q_acc: 13.411831, neg_train_v_acc: 29.590589, pos_train_acc: 76.118306
+traing: 800/1712, train_loss: 13.457609, bce_loss: 2.393955, q_bce_loss: 3.503409, v_bce_loss: 4.097805, debias_bce_loss: 2.354582, constrast_loss: 0.335939, self_loss: 0.257306, neg_train_q_acc: 13.362305, neg_train_v_acc: 29.566895, pos_train_acc: 76.110516
+traing: 900/1712, train_loss: 13.464440, bce_loss: 2.394832, q_bce_loss: 3.505450, v_bce_loss: 4.101194, debias_bce_loss: 2.356224, constrast_loss: 0.335818, self_loss: 0.256974, neg_train_q_acc: 13.325666, neg_train_v_acc: 29.551650, pos_train_acc: 76.074944
+traing: 1000/1712, train_loss: 13.462792, bce_loss: 2.393754, q_bce_loss: 3.505651, v_bce_loss: 4.102237, debias_bce_loss: 2.356077, constrast_loss: 0.335721, self_loss: 0.256451, neg_train_q_acc: 13.280990, neg_train_v_acc: 29.475001, pos_train_acc: 76.042320
+traing: 1100/1712, train_loss: 13.465864, bce_loss: 2.394261, q_bce_loss: 3.507775, v_bce_loss: 4.103450, debias_bce_loss: 2.356713, constrast_loss: 0.335614, self_loss: 0.256017, neg_train_q_acc: 13.270479, neg_train_v_acc: 29.445550, pos_train_acc: 76.031370
+traing: 1200/1712, train_loss: 13.474232, bce_loss: 2.396422, q_bce_loss: 3.508775, v_bce_loss: 4.107862, debias_bce_loss: 2.359282, constrast_loss: 0.335558, self_loss: 0.255444, neg_train_q_acc: 13.273438, neg_train_v_acc: 29.407770, pos_train_acc: 76.023982
+traing: 1300/1712, train_loss: 13.475809, bce_loss: 2.396617, q_bce_loss: 3.509771, v_bce_loss: 4.109278, debias_bce_loss: 2.359501, constrast_loss: 0.335482, self_loss: 0.255053, neg_train_q_acc: 13.252705, neg_train_v_acc: 29.378707, pos_train_acc: 76.004910
+traing: 1400/1712, train_loss: 13.482240, bce_loss: 2.397906, q_bce_loss: 3.511779, v_bce_loss: 4.111290, debias_bce_loss: 2.361309, constrast_loss: 0.335447, self_loss: 0.254836, neg_train_q_acc: 13.254372, neg_train_v_acc: 29.369141, pos_train_acc: 75.991817
+traing: 1500/1712, train_loss: 13.488314, bce_loss: 2.398890, q_bce_loss: 3.513316, v_bce_loss: 4.113829, debias_bce_loss: 2.362964, constrast_loss: 0.335359, self_loss: 0.254652, neg_train_q_acc: 13.257552, neg_train_v_acc: 29.351563, pos_train_acc: 75.987589
+traing: 1600/1712, train_loss: 13.489058, bce_loss: 2.398306, q_bce_loss: 3.512315, v_bce_loss: 4.116435, debias_bce_loss: 2.362728, constrast_loss: 0.335302, self_loss: 0.254658, neg_train_q_acc: 13.271566, neg_train_v_acc: 29.331300, pos_train_acc: 75.989016
+traing: 1700/1712, train_loss: 13.489083, bce_loss: 2.398156, q_bce_loss: 3.512309, v_bce_loss: 4.117321, debias_bce_loss: 2.362700, constrast_loss: 0.335237, self_loss: 0.254453, neg_train_q_acc: 13.272059, neg_train_v_acc: 29.299020, pos_train_acc: 75.995177
+
+lr: 0.0002500
+epoch 14, time: 704.63
+	train_loss: 13.48, norm: 4.6525, score: 75.95
+	eval score: 59.90 (91.34)
+	entropy:  3.59
+traing: 100/1712, train_loss: 13.441227, bce_loss: 2.366318, q_bce_loss: 3.523987, v_bce_loss: 4.108732, debias_bce_loss: 2.337350, constrast_loss: 0.337553, self_loss: 0.255762, neg_train_q_acc: 13.464844, neg_train_v_acc: 29.283855, pos_train_acc: 77.769533
+traing: 200/1712, train_loss: 13.395175, bce_loss: 2.361580, q_bce_loss: 3.505126, v_bce_loss: 4.099336, debias_bce_loss: 2.328244, constrast_loss: 0.335994, self_loss: 0.254965, neg_train_q_acc: 13.377604, neg_train_v_acc: 29.169923, pos_train_acc: 77.251955
+traing: 300/1712, train_loss: 13.385151, bce_loss: 2.359854, q_bce_loss: 3.496629, v_bce_loss: 4.103070, debias_bce_loss: 2.325853, constrast_loss: 0.335357, self_loss: 0.254796, neg_train_q_acc: 13.418837, neg_train_v_acc: 29.198351, pos_train_acc: 77.038630
+traing: 400/1712, train_loss: 13.388571, bce_loss: 2.362303, q_bce_loss: 3.501800, v_bce_loss: 4.101155, debias_bce_loss: 2.328813, constrast_loss: 0.335110, self_loss: 0.253130, neg_train_q_acc: 13.285808, neg_train_v_acc: 29.104818, pos_train_acc: 76.833010
+traing: 500/1712, train_loss: 13.369122, bce_loss: 2.359752, q_bce_loss: 3.497630, v_bce_loss: 4.093738, debias_bce_loss: 2.326583, constrast_loss: 0.334883, self_loss: 0.252178, neg_train_q_acc: 13.244792, neg_train_v_acc: 28.997917, pos_train_acc: 76.801825
+traing: 600/1712, train_loss: 13.348866, bce_loss: 2.355570, q_bce_loss: 3.494692, v_bce_loss: 4.087304, debias_bce_loss: 2.322827, constrast_loss: 0.334703, self_loss: 0.251257, neg_train_q_acc: 13.251953, neg_train_v_acc: 28.929037, pos_train_acc: 76.820965
+traing: 700/1712, train_loss: 13.329450, bce_loss: 2.352489, q_bce_loss: 3.489411, v_bce_loss: 4.078191, debias_bce_loss: 2.319801, constrast_loss: 0.334607, self_loss: 0.251650, neg_train_q_acc: 13.279576, neg_train_v_acc: 28.952196, pos_train_acc: 76.843938
+traing: 800/1712, train_loss: 13.343515, bce_loss: 2.356712, q_bce_loss: 3.492801, v_bce_loss: 4.083690, debias_bce_loss: 2.323735, constrast_loss: 0.334507, self_loss: 0.250690, neg_train_q_acc: 13.219401, neg_train_v_acc: 28.875489, pos_train_acc: 76.777346
+traing: 900/1712, train_loss: 13.340273, bce_loss: 2.356095, q_bce_loss: 3.492705, v_bce_loss: 4.081191, debias_bce_loss: 2.323166, constrast_loss: 0.334441, self_loss: 0.250891, neg_train_q_acc: 13.241030, neg_train_v_acc: 28.884115, pos_train_acc: 76.754053
+traing: 1000/1712, train_loss: 13.348239, bce_loss: 2.357796, q_bce_loss: 3.495197, v_bce_loss: 4.084330, debias_bce_loss: 2.325190, constrast_loss: 0.334398, self_loss: 0.250443, neg_train_q_acc: 13.231771, neg_train_v_acc: 28.864714, pos_train_acc: 76.755340
+traing: 1100/1712, train_loss: 13.352926, bce_loss: 2.359512, q_bce_loss: 3.495627, v_bce_loss: 4.086461, debias_bce_loss: 2.327297, constrast_loss: 0.334358, self_loss: 0.249890, neg_train_q_acc: 13.222657, neg_train_v_acc: 28.821260, pos_train_acc: 76.709045
+traing: 1200/1712, train_loss: 13.357919, bce_loss: 2.361173, q_bce_loss: 3.497164, v_bce_loss: 4.087319, debias_bce_loss: 2.329264, constrast_loss: 0.334319, self_loss: 0.249560, neg_train_q_acc: 13.218425, neg_train_v_acc: 28.817492, pos_train_acc: 76.686742
+traing: 1300/1712, train_loss: 13.361501, bce_loss: 2.361956, q_bce_loss: 3.497416, v_bce_loss: 4.089100, debias_bce_loss: 2.330445, constrast_loss: 0.334288, self_loss: 0.249432, neg_train_q_acc: 13.221355, neg_train_v_acc: 28.798078, pos_train_acc: 76.653648
+traing: 1400/1712, train_loss: 13.363257, bce_loss: 2.362276, q_bce_loss: 3.497571, v_bce_loss: 4.089787, debias_bce_loss: 2.331209, constrast_loss: 0.334289, self_loss: 0.249375, neg_train_q_acc: 13.220238, neg_train_v_acc: 28.801991, pos_train_acc: 76.627234
+traing: 1500/1712, train_loss: 13.365788, bce_loss: 2.362541, q_bce_loss: 3.498469, v_bce_loss: 4.091573, debias_bce_loss: 2.331717, constrast_loss: 0.334260, self_loss: 0.249076, neg_train_q_acc: 13.216580, neg_train_v_acc: 28.782466, pos_train_acc: 76.635766
+traing: 1600/1712, train_loss: 13.365189, bce_loss: 2.363093, q_bce_loss: 3.497859, v_bce_loss: 4.091208, debias_bce_loss: 2.332141, constrast_loss: 0.334245, self_loss: 0.248881, neg_train_q_acc: 13.206787, neg_train_v_acc: 28.773520, pos_train_acc: 76.620363
+traing: 1700/1712, train_loss: 13.368845, bce_loss: 2.363825, q_bce_loss: 3.499508, v_bce_loss: 4.091622, debias_bce_loss: 2.333381, constrast_loss: 0.334217, self_loss: 0.248764, neg_train_q_acc: 13.218597, neg_train_v_acc: 28.767770, pos_train_acc: 76.617496
+
+lr: 0.0002500
+epoch 15, time: 702.66
+	train_loss: 13.36, norm: 5.1541, score: 76.57
+	eval score: 60.35 (91.34)
+	entropy:  3.60
+traing: 100/1712, train_loss: 13.370162, bce_loss: 2.353927, q_bce_loss: 3.518169, v_bce_loss: 4.086166, debias_bce_loss: 2.322683, constrast_loss: 0.337280, self_loss: 0.250646, neg_train_q_acc: 13.315105, neg_train_v_acc: 28.884115, pos_train_acc: 78.096356
+traing: 200/1712, train_loss: 13.314493, bce_loss: 2.347015, q_bce_loss: 3.497036, v_bce_loss: 4.072652, debias_bce_loss: 2.319483, constrast_loss: 0.335557, self_loss: 0.247584, neg_train_q_acc: 13.123698, neg_train_v_acc: 28.652344, pos_train_acc: 77.516929
+traing: 300/1712, train_loss: 13.273079, bce_loss: 2.338922, q_bce_loss: 3.487092, v_bce_loss: 4.058314, debias_bce_loss: 2.310603, constrast_loss: 0.335091, self_loss: 0.247686, neg_train_q_acc: 13.115018, neg_train_v_acc: 28.590279, pos_train_acc: 77.445748
+traing: 400/1712, train_loss: 13.222904, bce_loss: 2.328364, q_bce_loss: 3.474652, v_bce_loss: 4.040907, debias_bce_loss: 2.301096, constrast_loss: 0.334804, self_loss: 0.247694, neg_train_q_acc: 13.199545, neg_train_v_acc: 28.614259, pos_train_acc: 77.333986
+traing: 500/1712, train_loss: 13.212307, bce_loss: 2.325522, q_bce_loss: 3.472115, v_bce_loss: 4.038832, debias_bce_loss: 2.300029, constrast_loss: 0.334579, self_loss: 0.247077, neg_train_q_acc: 13.242709, neg_train_v_acc: 28.545834, pos_train_acc: 77.330471
+traing: 600/1712, train_loss: 13.223376, bce_loss: 2.327703, q_bce_loss: 3.476928, v_bce_loss: 4.043246, debias_bce_loss: 2.301878, constrast_loss: 0.334484, self_loss: 0.246379, neg_train_q_acc: 13.218099, neg_train_v_acc: 28.550999, pos_train_acc: 77.334637
+traing: 700/1712, train_loss: 13.230076, bce_loss: 2.329403, q_bce_loss: 3.477945, v_bce_loss: 4.046028, debias_bce_loss: 2.304488, constrast_loss: 0.334353, self_loss: 0.245953, neg_train_q_acc: 13.209264, neg_train_v_acc: 28.548922, pos_train_acc: 77.280694
+traing: 800/1712, train_loss: 13.240844, bce_loss: 2.332539, q_bce_loss: 3.483063, v_bce_loss: 4.047100, debias_bce_loss: 2.306944, constrast_loss: 0.334324, self_loss: 0.245624, neg_train_q_acc: 13.200033, neg_train_v_acc: 28.494792, pos_train_acc: 77.223472
+traing: 900/1712, train_loss: 13.232103, bce_loss: 2.329571, q_bce_loss: 3.481161, v_bce_loss: 4.045949, debias_bce_loss: 2.304550, constrast_loss: 0.334291, self_loss: 0.245527, neg_train_q_acc: 13.176939, neg_train_v_acc: 28.497686, pos_train_acc: 77.203272
+traing: 1000/1712, train_loss: 13.238152, bce_loss: 2.331496, q_bce_loss: 3.482636, v_bce_loss: 4.047936, debias_bce_loss: 2.306817, constrast_loss: 0.334251, self_loss: 0.245006, neg_train_q_acc: 13.147787, neg_train_v_acc: 28.488673, pos_train_acc: 77.151044
+traing: 1100/1712, train_loss: 13.243081, bce_loss: 2.333325, q_bce_loss: 3.484331, v_bce_loss: 4.048237, debias_bce_loss: 2.308102, constrast_loss: 0.334213, self_loss: 0.244958, neg_train_q_acc: 13.149740, neg_train_v_acc: 28.480233, pos_train_acc: 77.159329
+traing: 1200/1712, train_loss: 13.251280, bce_loss: 2.336050, q_bce_loss: 3.485159, v_bce_loss: 4.050872, debias_bce_loss: 2.310470, constrast_loss: 0.334214, self_loss: 0.244839, neg_train_q_acc: 13.120009, neg_train_v_acc: 28.444228, pos_train_acc: 77.117081
+traing: 1300/1712, train_loss: 13.257985, bce_loss: 2.337716, q_bce_loss: 3.486532, v_bce_loss: 4.053044, debias_bce_loss: 2.311750, constrast_loss: 0.334192, self_loss: 0.244917, neg_train_q_acc: 13.131811, neg_train_v_acc: 28.453627, pos_train_acc: 77.079830
+traing: 1400/1712, train_loss: 13.263048, bce_loss: 2.339439, q_bce_loss: 3.487660, v_bce_loss: 4.053937, debias_bce_loss: 2.313631, constrast_loss: 0.334183, self_loss: 0.244733, neg_train_q_acc: 13.132255, neg_train_v_acc: 28.439361, pos_train_acc: 77.034693
+traing: 1500/1712, train_loss: 13.269213, bce_loss: 2.340753, q_bce_loss: 3.489463, v_bce_loss: 4.056284, debias_bce_loss: 2.314893, constrast_loss: 0.334137, self_loss: 0.244561, neg_train_q_acc: 13.122657, neg_train_v_acc: 28.405990, pos_train_acc: 77.024481
+traing: 1600/1712, train_loss: 13.274068, bce_loss: 2.341425, q_bce_loss: 3.491161, v_bce_loss: 4.058123, debias_bce_loss: 2.315865, constrast_loss: 0.334107, self_loss: 0.244462, neg_train_q_acc: 13.123454, neg_train_v_acc: 28.402507, pos_train_acc: 77.008710
+traing: 1700/1712, train_loss: 13.274887, bce_loss: 2.341991, q_bce_loss: 3.491569, v_bce_loss: 4.058284, debias_bce_loss: 2.316070, constrast_loss: 0.334086, self_loss: 0.244295, neg_train_q_acc: 13.127758, neg_train_v_acc: 28.356389, pos_train_acc: 77.003602
+
+lr: 0.0002500
+epoch 16, time: 703.87
+	train_loss: 13.27, norm: 5.4137, score: 76.96
+	eval score: 61.21 (91.34)
+	entropy:  3.62
+traing: 100/1712, train_loss: 13.313651, bce_loss: 2.347676, q_bce_loss: 3.526446, v_bce_loss: 4.063077, debias_bce_loss: 2.321832, constrast_loss: 0.336998, self_loss: 0.239207, neg_train_q_acc: 12.937500, neg_train_v_acc: 27.856772, pos_train_acc: 78.368492
+traing: 200/1712, train_loss: 13.261750, bce_loss: 2.334644, q_bce_loss: 3.510654, v_bce_loss: 4.058568, debias_bce_loss: 2.308746, constrast_loss: 0.335376, self_loss: 0.237920, neg_train_q_acc: 12.755209, neg_train_v_acc: 27.845704, pos_train_acc: 77.711591
+traing: 300/1712, train_loss: 13.204403, bce_loss: 2.319008, q_bce_loss: 3.488738, v_bce_loss: 4.049123, debias_bce_loss: 2.293629, constrast_loss: 0.334807, self_loss: 0.239699, neg_train_q_acc: 12.892361, neg_train_v_acc: 27.976997, pos_train_acc: 77.665801
+traing: 400/1712, train_loss: 13.183584, bce_loss: 2.315579, q_bce_loss: 3.482762, v_bce_loss: 4.044171, debias_bce_loss: 2.290562, constrast_loss: 0.334552, self_loss: 0.238653, neg_train_q_acc: 12.800456, neg_train_v_acc: 27.916342, pos_train_acc: 77.534182
+traing: 500/1712, train_loss: 13.160492, bce_loss: 2.309925, q_bce_loss: 3.478003, v_bce_loss: 4.036506, debias_bce_loss: 2.285428, constrast_loss: 0.334345, self_loss: 0.238762, neg_train_q_acc: 12.908073, neg_train_v_acc: 27.925522, pos_train_acc: 77.593752
+traing: 600/1712, train_loss: 13.163651, bce_loss: 2.310330, q_bce_loss: 3.478538, v_bce_loss: 4.037853, debias_bce_loss: 2.286475, constrast_loss: 0.334247, self_loss: 0.238736, neg_train_q_acc: 12.924045, neg_train_v_acc: 27.962674, pos_train_acc: 77.541669
+traing: 700/1712, train_loss: 13.166836, bce_loss: 2.310246, q_bce_loss: 3.477569, v_bce_loss: 4.039063, debias_bce_loss: 2.287162, constrast_loss: 0.334148, self_loss: 0.239549, neg_train_q_acc: 12.986607, neg_train_v_acc: 28.043714, pos_train_acc: 77.545761
+traing: 800/1712, train_loss: 13.178482, bce_loss: 2.312675, q_bce_loss: 3.480420, v_bce_loss: 4.041879, debias_bce_loss: 2.289734, constrast_loss: 0.334043, self_loss: 0.239911, neg_train_q_acc: 13.024903, neg_train_v_acc: 28.023927, pos_train_acc: 77.510907
+traing: 900/1712, train_loss: 13.177503, bce_loss: 2.312102, q_bce_loss: 3.478891, v_bce_loss: 4.041690, debias_bce_loss: 2.290009, constrast_loss: 0.334008, self_loss: 0.240268, neg_train_q_acc: 13.063224, neg_train_v_acc: 28.050927, pos_train_acc: 77.514325
+traing: 1000/1712, train_loss: 13.188675, bce_loss: 2.315081, q_bce_loss: 3.481373, v_bce_loss: 4.046368, debias_bce_loss: 2.292373, constrast_loss: 0.334002, self_loss: 0.239826, neg_train_q_acc: 13.044011, neg_train_v_acc: 28.038022, pos_train_acc: 77.498830
+traing: 1100/1712, train_loss: 13.196329, bce_loss: 2.317174, q_bce_loss: 3.482975, v_bce_loss: 4.047935, debias_bce_loss: 2.294424, constrast_loss: 0.334000, self_loss: 0.239941, neg_train_q_acc: 13.051847, neg_train_v_acc: 28.018703, pos_train_acc: 77.454903
+traing: 1200/1712, train_loss: 13.206119, bce_loss: 2.319753, q_bce_loss: 3.484688, v_bce_loss: 4.050283, debias_bce_loss: 2.296951, constrast_loss: 0.333973, self_loss: 0.240157, neg_train_q_acc: 13.054037, neg_train_v_acc: 28.041233, pos_train_acc: 77.426977
+traing: 1300/1712, train_loss: 13.198611, bce_loss: 2.318715, q_bce_loss: 3.481684, v_bce_loss: 4.047678, debias_bce_loss: 2.296146, constrast_loss: 0.333959, self_loss: 0.240143, neg_train_q_acc: 13.047877, neg_train_v_acc: 28.029448, pos_train_acc: 77.441408
+traing: 1400/1712, train_loss: 13.192939, bce_loss: 2.318524, q_bce_loss: 3.480648, v_bce_loss: 4.044285, debias_bce_loss: 2.295641, constrast_loss: 0.333944, self_loss: 0.239966, neg_train_q_acc: 13.045945, neg_train_v_acc: 28.014510, pos_train_acc: 77.415645
+traing: 1500/1712, train_loss: 13.200670, bce_loss: 2.320073, q_bce_loss: 3.482428, v_bce_loss: 4.047020, debias_bce_loss: 2.297071, constrast_loss: 0.333929, self_loss: 0.240050, neg_train_q_acc: 13.072136, neg_train_v_acc: 28.030383, pos_train_acc: 77.416235
+traing: 1600/1712, train_loss: 13.207489, bce_loss: 2.321890, q_bce_loss: 3.485107, v_bce_loss: 4.047690, debias_bce_loss: 2.299244, constrast_loss: 0.333914, self_loss: 0.239881, neg_train_q_acc: 13.057455, neg_train_v_acc: 28.000570, pos_train_acc: 77.371014
+traing: 1700/1712, train_loss: 13.209606, bce_loss: 2.322593, q_bce_loss: 3.484342, v_bce_loss: 4.048807, debias_bce_loss: 2.300475, constrast_loss: 0.333893, self_loss: 0.239832, neg_train_q_acc: 13.057522, neg_train_v_acc: 28.004596, pos_train_acc: 77.353173
+
+lr: 0.0002500
+epoch 17, time: 702.66
+	train_loss: 13.20, norm: 5.7120, score: 77.31
+	eval score: 61.52 (91.34)
+	entropy:  3.60
+traing: 100/1712, train_loss: 13.290617, bce_loss: 2.327984, q_bce_loss: 3.537724, v_bce_loss: 4.062202, debias_bce_loss: 2.303160, constrast_loss: 0.336970, self_loss: 0.240859, neg_train_q_acc: 13.397136, neg_train_v_acc: 27.901042, pos_train_acc: 78.964846
+traing: 200/1712, train_loss: 13.158430, bce_loss: 2.303897, q_bce_loss: 3.495493, v_bce_loss: 4.032176, debias_bce_loss: 2.278645, constrast_loss: 0.335524, self_loss: 0.237565, neg_train_q_acc: 13.119141, neg_train_v_acc: 27.727865, pos_train_acc: 78.598961
+traing: 300/1712, train_loss: 13.126811, bce_loss: 2.299283, q_bce_loss: 3.486497, v_bce_loss: 4.022076, debias_bce_loss: 2.274181, constrast_loss: 0.334922, self_loss: 0.236617, neg_train_q_acc: 13.068143, neg_train_v_acc: 27.708768, pos_train_acc: 78.424915
+traing: 400/1712, train_loss: 13.126687, bce_loss: 2.299354, q_bce_loss: 3.489420, v_bce_loss: 4.018389, debias_bce_loss: 2.274389, constrast_loss: 0.334616, self_loss: 0.236840, neg_train_q_acc: 13.068034, neg_train_v_acc: 27.709311, pos_train_acc: 78.217775
+traing: 500/1712, train_loss: 13.127587, bce_loss: 2.301624, q_bce_loss: 3.486675, v_bce_loss: 4.015173, debias_bce_loss: 2.278184, constrast_loss: 0.334380, self_loss: 0.237184, neg_train_q_acc: 13.055729, neg_train_v_acc: 27.613282, pos_train_acc: 78.047137
+traing: 600/1712, train_loss: 13.146185, bce_loss: 2.306759, q_bce_loss: 3.487385, v_bce_loss: 4.022189, debias_bce_loss: 2.283405, constrast_loss: 0.334259, self_loss: 0.237396, neg_train_q_acc: 13.051867, neg_train_v_acc: 27.651693, pos_train_acc: 77.929689
+traing: 700/1712, train_loss: 13.147701, bce_loss: 2.308336, q_bce_loss: 3.483701, v_bce_loss: 4.023466, debias_bce_loss: 2.284719, constrast_loss: 0.334177, self_loss: 0.237768, neg_train_q_acc: 13.070685, neg_train_v_acc: 27.668341, pos_train_acc: 77.906996
+traing: 800/1712, train_loss: 13.135861, bce_loss: 2.304701, q_bce_loss: 3.481487, v_bce_loss: 4.021700, debias_bce_loss: 2.281458, constrast_loss: 0.334164, self_loss: 0.237450, neg_train_q_acc: 13.039388, neg_train_v_acc: 27.662598, pos_train_acc: 77.919110
+traing: 900/1712, train_loss: 13.139337, bce_loss: 2.305947, q_bce_loss: 3.481733, v_bce_loss: 4.022373, debias_bce_loss: 2.283042, constrast_loss: 0.334125, self_loss: 0.237372, neg_train_q_acc: 13.049335, neg_train_v_acc: 27.649740, pos_train_acc: 77.881223
+traing: 1000/1712, train_loss: 13.143294, bce_loss: 2.306419, q_bce_loss: 3.482868, v_bce_loss: 4.024946, debias_bce_loss: 2.283617, constrast_loss: 0.334101, self_loss: 0.237114, neg_train_q_acc: 13.036198, neg_train_v_acc: 27.624871, pos_train_acc: 77.870054
+traing: 1100/1712, train_loss: 13.139940, bce_loss: 2.305333, q_bce_loss: 3.480892, v_bce_loss: 4.025301, debias_bce_loss: 2.282881, constrast_loss: 0.334095, self_loss: 0.237146, neg_train_q_acc: 13.029475, neg_train_v_acc: 27.643585, pos_train_acc: 77.862218
+traing: 1200/1712, train_loss: 13.146006, bce_loss: 2.305776, q_bce_loss: 3.480809, v_bce_loss: 4.029919, debias_bce_loss: 2.283286, constrast_loss: 0.334076, self_loss: 0.237380, neg_train_q_acc: 13.044922, neg_train_v_acc: 27.644858, pos_train_acc: 77.850479
+traing: 1300/1712, train_loss: 13.154817, bce_loss: 2.307642, q_bce_loss: 3.481921, v_bce_loss: 4.033668, debias_bce_loss: 2.285209, constrast_loss: 0.334061, self_loss: 0.237439, neg_train_q_acc: 13.043470, neg_train_v_acc: 27.682893, pos_train_acc: 77.824721
+traing: 1400/1712, train_loss: 13.157939, bce_loss: 2.308248, q_bce_loss: 3.481698, v_bce_loss: 4.037002, debias_bce_loss: 2.285644, constrast_loss: 0.334051, self_loss: 0.237099, neg_train_q_acc: 13.027902, neg_train_v_acc: 27.655600, pos_train_acc: 77.783112
+traing: 1500/1712, train_loss: 13.156800, bce_loss: 2.308016, q_bce_loss: 3.480169, v_bce_loss: 4.037572, debias_bce_loss: 2.285664, constrast_loss: 0.334030, self_loss: 0.237116, neg_train_q_acc: 13.031598, neg_train_v_acc: 27.677778, pos_train_acc: 77.788544
+traing: 1600/1712, train_loss: 13.152331, bce_loss: 2.307319, q_bce_loss: 3.479496, v_bce_loss: 4.036096, debias_bce_loss: 2.284942, constrast_loss: 0.334027, self_loss: 0.236817, neg_train_q_acc: 13.019043, neg_train_v_acc: 27.676189, pos_train_acc: 77.798016
+traing: 1700/1712, train_loss: 13.149327, bce_loss: 2.306596, q_bce_loss: 3.479291, v_bce_loss: 4.034825, debias_bce_loss: 2.284872, constrast_loss: 0.334029, self_loss: 0.236571, neg_train_q_acc: 13.007889, neg_train_v_acc: 27.658166, pos_train_acc: 77.774282
+
+lr: 0.0002500
+epoch 18, time: 708.75
+	train_loss: 13.14, norm: 5.9487, score: 77.74
+	eval score: 61.73 (91.34)
+	entropy:  3.62
+traing: 100/1712, train_loss: 13.225816, bce_loss: 2.318622, q_bce_loss: 3.532040, v_bce_loss: 4.042086, debias_bce_loss: 2.290107, constrast_loss: 0.337373, self_loss: 0.235196, neg_train_q_acc: 13.106771, neg_train_v_acc: 27.513022, pos_train_acc: 79.106772
+traing: 200/1712, train_loss: 13.075453, bce_loss: 2.292999, q_bce_loss: 3.486908, v_bce_loss: 3.995806, debias_bce_loss: 2.263763, constrast_loss: 0.335630, self_loss: 0.233449, neg_train_q_acc: 12.947266, neg_train_v_acc: 27.505209, pos_train_acc: 78.800132
+traing: 300/1712, train_loss: 13.041663, bce_loss: 2.284132, q_bce_loss: 3.477801, v_bce_loss: 3.987658, debias_bce_loss: 2.254995, constrast_loss: 0.334981, self_loss: 0.234032, neg_train_q_acc: 13.070747, neg_train_v_acc: 27.493490, pos_train_acc: 78.650175
+traing: 400/1712, train_loss: 12.979811, bce_loss: 2.271412, q_bce_loss: 3.458236, v_bce_loss: 3.972437, debias_bce_loss: 2.242558, constrast_loss: 0.334590, self_loss: 0.233526, neg_train_q_acc: 13.004558, neg_train_v_acc: 27.538738, pos_train_acc: 78.611655
+traing: 500/1712, train_loss: 12.976804, bce_loss: 2.268795, q_bce_loss: 3.456694, v_bce_loss: 3.976902, debias_bce_loss: 2.239743, constrast_loss: 0.334340, self_loss: 0.233443, neg_train_q_acc: 13.022396, neg_train_v_acc: 27.515626, pos_train_acc: 78.594533
+traing: 600/1712, train_loss: 12.968110, bce_loss: 2.266199, q_bce_loss: 3.453288, v_bce_loss: 3.976680, debias_bce_loss: 2.237302, constrast_loss: 0.334210, self_loss: 0.233477, neg_train_q_acc: 12.999566, neg_train_v_acc: 27.502388, pos_train_acc: 78.550349
+traing: 700/1712, train_loss: 12.976035, bce_loss: 2.267700, q_bce_loss: 3.457641, v_bce_loss: 3.976775, debias_bce_loss: 2.239355, constrast_loss: 0.334051, self_loss: 0.233504, neg_train_q_acc: 12.920201, neg_train_v_acc: 27.466147, pos_train_acc: 78.512651
+traing: 800/1712, train_loss: 12.972580, bce_loss: 2.267162, q_bce_loss: 3.455430, v_bce_loss: 3.976805, debias_bce_loss: 2.238761, constrast_loss: 0.333869, self_loss: 0.233517, neg_train_q_acc: 12.940756, neg_train_v_acc: 27.452475, pos_train_acc: 78.471844
+traing: 900/1712, train_loss: 12.968309, bce_loss: 2.266201, q_bce_loss: 3.454923, v_bce_loss: 3.975000, debias_bce_loss: 2.238455, constrast_loss: 0.333827, self_loss: 0.233301, neg_train_q_acc: 12.926071, neg_train_v_acc: 27.438658, pos_train_acc: 78.465135
+traing: 1000/1712, train_loss: 12.964482, bce_loss: 2.266537, q_bce_loss: 3.452073, v_bce_loss: 3.974237, debias_bce_loss: 2.238221, constrast_loss: 0.333743, self_loss: 0.233224, neg_train_q_acc: 12.944141, neg_train_v_acc: 27.446615, pos_train_acc: 78.421616
+traing: 1100/1712, train_loss: 12.960634, bce_loss: 2.265462, q_bce_loss: 3.451083, v_bce_loss: 3.973966, debias_bce_loss: 2.237212, constrast_loss: 0.333659, self_loss: 0.233084, neg_train_q_acc: 12.979522, neg_train_v_acc: 27.439040, pos_train_acc: 78.420338
+traing: 1200/1712, train_loss: 12.972349, bce_loss: 2.267786, q_bce_loss: 3.453902, v_bce_loss: 3.978440, debias_bce_loss: 2.239598, constrast_loss: 0.333581, self_loss: 0.233014, neg_train_q_acc: 12.981663, neg_train_v_acc: 27.406685, pos_train_acc: 78.404299
+traing: 1300/1712, train_loss: 12.972188, bce_loss: 2.267822, q_bce_loss: 3.454412, v_bce_loss: 3.978000, debias_bce_loss: 2.240056, constrast_loss: 0.333521, self_loss: 0.232792, neg_train_q_acc: 12.975762, neg_train_v_acc: 27.365285, pos_train_acc: 78.387923
+traing: 1400/1712, train_loss: 12.972158, bce_loss: 2.267572, q_bce_loss: 3.453801, v_bce_loss: 3.979026, debias_bce_loss: 2.240005, constrast_loss: 0.333429, self_loss: 0.232775, neg_train_q_acc: 12.977865, neg_train_v_acc: 27.356214, pos_train_acc: 78.368119
+traing: 1500/1712, train_loss: 12.976790, bce_loss: 2.268219, q_bce_loss: 3.456153, v_bce_loss: 3.980477, debias_bce_loss: 2.240720, constrast_loss: 0.333375, self_loss: 0.232616, neg_train_q_acc: 12.980382, neg_train_v_acc: 27.353733, pos_train_acc: 78.373700
+traing: 1600/1712, train_loss: 12.979257, bce_loss: 2.268688, q_bce_loss: 3.457254, v_bce_loss: 3.981204, debias_bce_loss: 2.241148, constrast_loss: 0.333319, self_loss: 0.232549, neg_train_q_acc: 12.982422, neg_train_v_acc: 27.345785, pos_train_acc: 78.383791
+traing: 1700/1712, train_loss: 12.981739, bce_loss: 2.268986, q_bce_loss: 3.457897, v_bce_loss: 3.982243, debias_bce_loss: 2.241686, constrast_loss: 0.333261, self_loss: 0.232556, neg_train_q_acc: 12.985294, neg_train_v_acc: 27.335785, pos_train_acc: 78.378602
+
+lr: 0.0001250
+epoch 19, time: 694.41
+	train_loss: 12.97, norm: 6.0799, score: 78.34
+	eval score: 61.70 (91.34)
+	entropy:  3.61
+traing: 100/1712, train_loss: 13.055168, bce_loss: 2.269138, q_bce_loss: 3.491452, v_bce_loss: 4.010479, debias_bce_loss: 2.239317, constrast_loss: 0.335737, self_loss: 0.236348, neg_train_q_acc: 13.045573, neg_train_v_acc: 27.593751, pos_train_acc: 79.304689
+traing: 200/1712, train_loss: 12.964654, bce_loss: 2.255221, q_bce_loss: 3.462696, v_bce_loss: 3.981561, debias_bce_loss: 2.229189, constrast_loss: 0.333793, self_loss: 0.234065, neg_train_q_acc: 13.005209, neg_train_v_acc: 27.361329, pos_train_acc: 78.815106
+traing: 300/1712, train_loss: 12.938052, bce_loss: 2.253797, q_bce_loss: 3.456069, v_bce_loss: 3.972256, debias_bce_loss: 2.225971, constrast_loss: 0.333282, self_loss: 0.232226, neg_train_q_acc: 12.893229, neg_train_v_acc: 27.253039, pos_train_acc: 78.736113
+traing: 400/1712, train_loss: 12.931879, bce_loss: 2.253458, q_bce_loss: 3.455336, v_bce_loss: 3.969381, debias_bce_loss: 2.225647, constrast_loss: 0.333062, self_loss: 0.231665, neg_train_q_acc: 12.919271, neg_train_v_acc: 27.218425, pos_train_acc: 78.717775
+traing: 500/1712, train_loss: 12.924652, bce_loss: 2.252351, q_bce_loss: 3.453997, v_bce_loss: 3.968353, debias_bce_loss: 2.225599, constrast_loss: 0.332888, self_loss: 0.230488, neg_train_q_acc: 12.908854, neg_train_v_acc: 27.114324, pos_train_acc: 78.755471
+traing: 600/1712, train_loss: 12.945881, bce_loss: 2.257244, q_bce_loss: 3.460151, v_bce_loss: 3.976399, debias_bce_loss: 2.230692, constrast_loss: 0.332811, self_loss: 0.229528, neg_train_q_acc: 12.851129, neg_train_v_acc: 27.153213, pos_train_acc: 78.648222
+traing: 700/1712, train_loss: 12.932852, bce_loss: 2.254800, q_bce_loss: 3.457784, v_bce_loss: 3.970807, debias_bce_loss: 2.227911, constrast_loss: 0.332732, self_loss: 0.229606, neg_train_q_acc: 12.871652, neg_train_v_acc: 27.097471, pos_train_acc: 78.683038
+traing: 800/1712, train_loss: 12.934857, bce_loss: 2.255876, q_bce_loss: 3.457703, v_bce_loss: 3.972018, debias_bce_loss: 2.229245, constrast_loss: 0.332615, self_loss: 0.229134, neg_train_q_acc: 12.851563, neg_train_v_acc: 27.041667, pos_train_acc: 78.612958
+traing: 900/1712, train_loss: 12.937253, bce_loss: 2.256337, q_bce_loss: 3.457470, v_bce_loss: 3.972901, debias_bce_loss: 2.229566, constrast_loss: 0.332566, self_loss: 0.229471, neg_train_q_acc: 12.849827, neg_train_v_acc: 27.042391, pos_train_acc: 78.576825
+traing: 1000/1712, train_loss: 12.924143, bce_loss: 2.253487, q_bce_loss: 3.453089, v_bce_loss: 3.968730, debias_bce_loss: 2.226966, constrast_loss: 0.332515, self_loss: 0.229785, neg_train_q_acc: 12.868360, neg_train_v_acc: 27.045443, pos_train_acc: 78.602476
+traing: 1100/1712, train_loss: 12.921220, bce_loss: 2.253600, q_bce_loss: 3.450909, v_bce_loss: 3.967707, debias_bce_loss: 2.226548, constrast_loss: 0.332464, self_loss: 0.229997, neg_train_q_acc: 12.896662, neg_train_v_acc: 27.066170, pos_train_acc: 78.618255
+traing: 1200/1712, train_loss: 12.923187, bce_loss: 2.253637, q_bce_loss: 3.451340, v_bce_loss: 3.969241, debias_bce_loss: 2.226828, constrast_loss: 0.332427, self_loss: 0.229905, neg_train_q_acc: 12.900825, neg_train_v_acc: 27.053386, pos_train_acc: 78.627932
+traing: 1300/1712, train_loss: 12.927012, bce_loss: 2.254628, q_bce_loss: 3.453508, v_bce_loss: 3.969755, debias_bce_loss: 2.227837, constrast_loss: 0.332407, self_loss: 0.229626, neg_train_q_acc: 12.897737, neg_train_v_acc: 27.029147, pos_train_acc: 78.630110
+traing: 1400/1712, train_loss: 12.918763, bce_loss: 2.252890, q_bce_loss: 3.451391, v_bce_loss: 3.967458, debias_bce_loss: 2.226158, constrast_loss: 0.332384, self_loss: 0.229494, neg_train_q_acc: 12.915086, neg_train_v_acc: 27.009673, pos_train_acc: 78.642952
+traing: 1500/1712, train_loss: 12.918448, bce_loss: 2.252776, q_bce_loss: 3.450634, v_bce_loss: 3.967650, debias_bce_loss: 2.226572, constrast_loss: 0.332331, self_loss: 0.229495, neg_train_q_acc: 12.913021, neg_train_v_acc: 27.013542, pos_train_acc: 78.627259
+traing: 1600/1712, train_loss: 12.923759, bce_loss: 2.254100, q_bce_loss: 3.452566, v_bce_loss: 3.968050, debias_bce_loss: 2.227563, constrast_loss: 0.332330, self_loss: 0.229717, neg_train_q_acc: 12.934733, neg_train_v_acc: 27.009522, pos_train_acc: 78.620689
+traing: 1700/1712, train_loss: 12.927271, bce_loss: 2.254975, q_bce_loss: 3.452944, v_bce_loss: 3.969728, debias_bce_loss: 2.228524, constrast_loss: 0.332318, self_loss: 0.229594, neg_train_q_acc: 12.918658, neg_train_v_acc: 26.974572, pos_train_acc: 78.595131
+
+lr: 0.0001250
+epoch 20, time: 687.04
+	train_loss: 12.92, norm: 6.5781, score: 78.55
+	eval score: 61.52 (91.34)
+	entropy:  3.63
+traing: 100/1712, train_loss: 12.902428, bce_loss: 2.239380, q_bce_loss: 3.451433, v_bce_loss: 3.973536, debias_bce_loss: 2.213171, constrast_loss: 0.335282, self_loss: 0.229875, neg_train_q_acc: 13.252605, neg_train_v_acc: 27.020834, pos_train_acc: 79.557294
+traing: 200/1712, train_loss: 12.862941, bce_loss: 2.233270, q_bce_loss: 3.448248, v_bce_loss: 3.954380, debias_bce_loss: 2.206441, constrast_loss: 0.333778, self_loss: 0.228941, neg_train_q_acc: 13.143881, neg_train_v_acc: 26.739584, pos_train_acc: 79.175783
+traing: 300/1712, train_loss: 12.878744, bce_loss: 2.237756, q_bce_loss: 3.449628, v_bce_loss: 3.960461, debias_bce_loss: 2.213355, constrast_loss: 0.333261, self_loss: 0.228095, neg_train_q_acc: 13.006077, neg_train_v_acc: 26.790365, pos_train_acc: 78.977867
+traing: 400/1712, train_loss: 12.851408, bce_loss: 2.232825, q_bce_loss: 3.444887, v_bce_loss: 3.948254, debias_bce_loss: 2.209667, constrast_loss: 0.332938, self_loss: 0.227612, neg_train_q_acc: 12.987305, neg_train_v_acc: 26.740235, pos_train_acc: 78.904299
+traing: 500/1712, train_loss: 12.851991, bce_loss: 2.235425, q_bce_loss: 3.441098, v_bce_loss: 3.951870, debias_bce_loss: 2.210491, constrast_loss: 0.332704, self_loss: 0.226801, neg_train_q_acc: 12.969011, neg_train_v_acc: 26.685678, pos_train_acc: 78.867971
+traing: 600/1712, train_loss: 12.861606, bce_loss: 2.236691, q_bce_loss: 3.444946, v_bce_loss: 3.956487, debias_bce_loss: 2.212192, constrast_loss: 0.332571, self_loss: 0.226240, neg_train_q_acc: 12.907335, neg_train_v_acc: 26.669489, pos_train_acc: 78.851999
+traing: 700/1712, train_loss: 12.848065, bce_loss: 2.233346, q_bce_loss: 3.441605, v_bce_loss: 3.951524, debias_bce_loss: 2.208912, constrast_loss: 0.332487, self_loss: 0.226730, neg_train_q_acc: 12.940290, neg_train_v_acc: 26.712798, pos_train_acc: 78.889511
+traing: 800/1712, train_loss: 12.843026, bce_loss: 2.234064, q_bce_loss: 3.439399, v_bce_loss: 3.948519, debias_bce_loss: 2.208896, constrast_loss: 0.332416, self_loss: 0.226577, neg_train_q_acc: 12.946940, neg_train_v_acc: 26.678712, pos_train_acc: 78.871096
+traing: 900/1712, train_loss: 12.858035, bce_loss: 2.237676, q_bce_loss: 3.440924, v_bce_loss: 3.953810, debias_bce_loss: 2.212721, constrast_loss: 0.332365, self_loss: 0.226847, neg_train_q_acc: 12.929254, neg_train_v_acc: 26.689092, pos_train_acc: 78.840858
+traing: 1000/1712, train_loss: 12.860492, bce_loss: 2.239780, q_bce_loss: 3.441922, v_bce_loss: 3.952473, debias_bce_loss: 2.214531, constrast_loss: 0.332326, self_loss: 0.226487, neg_train_q_acc: 12.904167, neg_train_v_acc: 26.663022, pos_train_acc: 78.821226
+traing: 1100/1712, train_loss: 12.870931, bce_loss: 2.242342, q_bce_loss: 3.445945, v_bce_loss: 3.954188, debias_bce_loss: 2.217097, constrast_loss: 0.332272, self_loss: 0.226362, neg_train_q_acc: 12.890152, neg_train_v_acc: 26.656487, pos_train_acc: 78.823866
+traing: 1200/1712, train_loss: 12.867327, bce_loss: 2.241875, q_bce_loss: 3.444897, v_bce_loss: 3.952567, debias_bce_loss: 2.216415, constrast_loss: 0.332221, self_loss: 0.226451, neg_train_q_acc: 12.917861, neg_train_v_acc: 26.660591, pos_train_acc: 78.813913
+traing: 1300/1712, train_loss: 12.868925, bce_loss: 2.243523, q_bce_loss: 3.444847, v_bce_loss: 3.952862, debias_bce_loss: 2.217131, constrast_loss: 0.332201, self_loss: 0.226120, neg_train_q_acc: 12.916166, neg_train_v_acc: 26.648238, pos_train_acc: 78.811300
+traing: 1400/1712, train_loss: 12.870157, bce_loss: 2.243597, q_bce_loss: 3.446014, v_bce_loss: 3.952498, debias_bce_loss: 2.217147, constrast_loss: 0.332165, self_loss: 0.226245, neg_train_q_acc: 12.885324, neg_train_v_acc: 26.645927, pos_train_acc: 78.826360
+traing: 1500/1712, train_loss: 12.869484, bce_loss: 2.243881, q_bce_loss: 3.446722, v_bce_loss: 3.951548, debias_bce_loss: 2.217214, constrast_loss: 0.332151, self_loss: 0.225990, neg_train_q_acc: 12.875955, neg_train_v_acc: 26.625608, pos_train_acc: 78.795141
+traing: 1600/1712, train_loss: 12.873959, bce_loss: 2.245007, q_bce_loss: 3.447424, v_bce_loss: 3.953868, debias_bce_loss: 2.218588, constrast_loss: 0.332124, self_loss: 0.225650, neg_train_q_acc: 12.847738, neg_train_v_acc: 26.601075, pos_train_acc: 78.769045
+traing: 1700/1712, train_loss: 12.879736, bce_loss: 2.246148, q_bce_loss: 3.448043, v_bce_loss: 3.956208, debias_bce_loss: 2.219914, constrast_loss: 0.332121, self_loss: 0.225768, neg_train_q_acc: 12.834176, neg_train_v_acc: 26.624082, pos_train_acc: 78.764478
+
+lr: 0.0001250
+epoch 21, time: 696.79
+	train_loss: 12.87, norm: 6.8964, score: 78.71
+	eval score: 61.02 (91.34)
+	entropy:  3.62
+traing: 100/1712, train_loss: 12.962245, bce_loss: 2.261653, q_bce_loss: 3.489447, v_bce_loss: 3.963581, debias_bce_loss: 2.235949, constrast_loss: 0.335147, self_loss: 0.225490, neg_train_q_acc: 12.856771, neg_train_v_acc: 26.636720, pos_train_acc: 79.631512
+traing: 200/1712, train_loss: 12.883147, bce_loss: 2.247189, q_bce_loss: 3.466637, v_bce_loss: 3.946760, debias_bce_loss: 2.223806, constrast_loss: 0.333387, self_loss: 0.221789, neg_train_q_acc: 12.698568, neg_train_v_acc: 26.488282, pos_train_acc: 79.388023
+traing: 300/1712, train_loss: 12.847384, bce_loss: 2.241136, q_bce_loss: 3.453451, v_bce_loss: 3.939475, debias_bce_loss: 2.215533, constrast_loss: 0.332678, self_loss: 0.221704, neg_train_q_acc: 12.644966, neg_train_v_acc: 26.310765, pos_train_acc: 79.281686
+traing: 400/1712, train_loss: 12.827969, bce_loss: 2.235875, q_bce_loss: 3.448458, v_bce_loss: 3.933957, debias_bce_loss: 2.210863, constrast_loss: 0.332376, self_loss: 0.222147, neg_train_q_acc: 12.677735, neg_train_v_acc: 26.288738, pos_train_acc: 79.211916
+traing: 500/1712, train_loss: 12.838854, bce_loss: 2.238807, q_bce_loss: 3.449661, v_bce_loss: 3.940026, debias_bce_loss: 2.213216, constrast_loss: 0.332278, self_loss: 0.221622, neg_train_q_acc: 12.729167, neg_train_v_acc: 26.173438, pos_train_acc: 79.108075
+traing: 600/1712, train_loss: 12.837742, bce_loss: 2.237692, q_bce_loss: 3.447335, v_bce_loss: 3.943555, debias_bce_loss: 2.210877, constrast_loss: 0.332168, self_loss: 0.222038, neg_train_q_acc: 12.784288, neg_train_v_acc: 26.262805, pos_train_acc: 79.115236
+traing: 700/1712, train_loss: 12.816337, bce_loss: 2.232551, q_bce_loss: 3.440997, v_bce_loss: 3.937801, debias_bce_loss: 2.206060, constrast_loss: 0.332117, self_loss: 0.222270, neg_train_q_acc: 12.795201, neg_train_v_acc: 26.331288, pos_train_acc: 79.108075
+traing: 800/1712, train_loss: 12.817371, bce_loss: 2.231903, q_bce_loss: 3.439797, v_bce_loss: 3.939254, debias_bce_loss: 2.205628, constrast_loss: 0.332086, self_loss: 0.222901, neg_train_q_acc: 12.839519, neg_train_v_acc: 26.364096, pos_train_acc: 79.109051
+traing: 900/1712, train_loss: 12.810773, bce_loss: 2.230351, q_bce_loss: 3.436184, v_bce_loss: 3.939464, debias_bce_loss: 2.203752, constrast_loss: 0.332071, self_loss: 0.222983, neg_train_q_acc: 12.837240, neg_train_v_acc: 26.375724, pos_train_acc: 79.084203
+traing: 1000/1712, train_loss: 12.816551, bce_loss: 2.230941, q_bce_loss: 3.437467, v_bce_loss: 3.942214, debias_bce_loss: 2.204770, constrast_loss: 0.332055, self_loss: 0.223035, neg_train_q_acc: 12.870964, neg_train_v_acc: 26.369272, pos_train_acc: 79.054820
+traing: 1100/1712, train_loss: 12.811148, bce_loss: 2.229702, q_bce_loss: 3.435040, v_bce_loss: 3.943287, debias_bce_loss: 2.203548, constrast_loss: 0.332020, self_loss: 0.222517, neg_train_q_acc: 12.841501, neg_train_v_acc: 26.326232, pos_train_acc: 79.041787
+traing: 1200/1712, train_loss: 12.813272, bce_loss: 2.229937, q_bce_loss: 3.435634, v_bce_loss: 3.944929, debias_bce_loss: 2.203417, constrast_loss: 0.332012, self_loss: 0.222448, neg_train_q_acc: 12.854709, neg_train_v_acc: 26.288304, pos_train_acc: 79.028322
+traing: 1300/1712, train_loss: 12.823029, bce_loss: 2.232509, q_bce_loss: 3.436591, v_bce_loss: 3.948764, debias_bce_loss: 2.205692, constrast_loss: 0.331972, self_loss: 0.222500, neg_train_q_acc: 12.849459, neg_train_v_acc: 26.291267, pos_train_acc: 79.009116
+traing: 1400/1712, train_loss: 12.826225, bce_loss: 2.233333, q_bce_loss: 3.437170, v_bce_loss: 3.950791, debias_bce_loss: 2.206334, constrast_loss: 0.331978, self_loss: 0.222207, neg_train_q_acc: 12.823661, neg_train_v_acc: 26.285622, pos_train_acc: 78.998607
+traing: 1500/1712, train_loss: 12.826524, bce_loss: 2.233736, q_bce_loss: 3.437882, v_bce_loss: 3.950955, debias_bce_loss: 2.206511, constrast_loss: 0.331967, self_loss: 0.221824, neg_train_q_acc: 12.799653, neg_train_v_acc: 26.242015, pos_train_acc: 78.978127
+traing: 1600/1712, train_loss: 12.836033, bce_loss: 2.236702, q_bce_loss: 3.441235, v_bce_loss: 3.952529, debias_bce_loss: 2.209054, constrast_loss: 0.331957, self_loss: 0.221518, neg_train_q_acc: 12.767497, neg_train_v_acc: 26.211752, pos_train_acc: 78.945803
+traing: 1700/1712, train_loss: 12.843761, bce_loss: 2.239578, q_bce_loss: 3.442820, v_bce_loss: 3.955264, debias_bce_loss: 2.211591, constrast_loss: 0.331982, self_loss: 0.220842, neg_train_q_acc: 12.731158, neg_train_v_acc: 26.151119, pos_train_acc: 78.910235
+
+lr: 0.0001250
+epoch 22, time: 6814.06
+	train_loss: 12.84, norm: 7.1565, score: 78.86
+	eval score: 60.96 (91.34)
+	entropy:  3.63
+traing: 100/1712, train_loss: 12.708018, bce_loss: 2.218610, q_bce_loss: 3.417695, v_bce_loss: 3.915735, debias_bce_loss: 2.180591, constrast_loss: 0.335111, self_loss: 0.213425, neg_train_q_acc: 12.446615, neg_train_v_acc: 25.523438, pos_train_acc: 80.210940
+traing: 200/1712, train_loss: 12.743574, bce_loss: 2.233047, q_bce_loss: 3.431178, v_bce_loss: 3.918712, debias_bce_loss: 2.193474, constrast_loss: 0.333752, self_loss: 0.211137, neg_train_q_acc: 12.234375, neg_train_v_acc: 25.209636, pos_train_acc: 79.476565
+traing: 300/1712, train_loss: 12.777216, bce_loss: 2.246188, q_bce_loss: 3.441647, v_bce_loss: 3.932288, debias_bce_loss: 2.204466, constrast_loss: 0.333335, self_loss: 0.206431, neg_train_q_acc: 12.038629, neg_train_v_acc: 24.750001, pos_train_acc: 79.116322
+traing: 400/1712, train_loss: 12.762508, bce_loss: 2.249639, q_bce_loss: 3.441156, v_bce_loss: 3.923689, debias_bce_loss: 2.203992, constrast_loss: 0.333121, self_loss: 0.203637, neg_train_q_acc: 11.875977, neg_train_v_acc: 24.443686, pos_train_acc: 79.035809
+traing: 500/1712, train_loss: 12.756975, bce_loss: 2.253763, q_bce_loss: 3.439945, v_bce_loss: 3.924333, debias_bce_loss: 2.204640, constrast_loss: 0.332963, self_loss: 0.200443, neg_train_q_acc: 11.672396, neg_train_v_acc: 24.032292, pos_train_acc: 78.909898
+traing: 600/1712, train_loss: 12.763588, bce_loss: 2.262648, q_bce_loss: 3.446432, v_bce_loss: 3.923708, debias_bce_loss: 2.210520, constrast_loss: 0.332967, self_loss: 0.195771, neg_train_q_acc: 11.437500, neg_train_v_acc: 23.517579, pos_train_acc: 78.765410
+traing: 700/1712, train_loss: 12.761491, bce_loss: 2.272609, q_bce_loss: 3.450031, v_bce_loss: 3.919271, debias_bce_loss: 2.216791, constrast_loss: 0.332921, self_loss: 0.189956, neg_train_q_acc: 11.150298, neg_train_v_acc: 22.848029, pos_train_acc: 78.593008
+traing: 800/1712, train_loss: 12.754807, bce_loss: 2.282396, q_bce_loss: 3.454004, v_bce_loss: 3.914461, debias_bce_loss: 2.223462, constrast_loss: 0.332960, self_loss: 0.182508, neg_train_q_acc: 10.722331, neg_train_v_acc: 21.996583, pos_train_acc: 78.361981
+traing: 900/1712, train_loss: 12.714014, bce_loss: 2.283530, q_bce_loss: 3.448653, v_bce_loss: 3.901072, debias_bce_loss: 2.222343, constrast_loss: 0.332945, self_loss: 0.175157, neg_train_q_acc: 10.367911, neg_train_v_acc: 21.116465, pos_train_acc: 78.284146
+traing: 1000/1712, train_loss: 12.689191, bce_loss: 2.287402, q_bce_loss: 3.447922, v_bce_loss: 3.891262, debias_bce_loss: 2.223980, constrast_loss: 0.332975, self_loss: 0.168550, neg_train_q_acc: 10.044662, neg_train_v_acc: 20.286719, pos_train_acc: 78.173830
+traing: 1100/1712, train_loss: 12.662289, bce_loss: 2.288875, q_bce_loss: 3.445858, v_bce_loss: 3.884042, debias_bce_loss: 2.223993, constrast_loss: 0.333003, self_loss: 0.162173, neg_train_q_acc: 9.707742, neg_train_v_acc: 19.527699, pos_train_acc: 78.110206
+traing: 1200/1712, train_loss: 12.641928, bce_loss: 2.291210, q_bce_loss: 3.444513, v_bce_loss: 3.879222, debias_bce_loss: 2.225965, constrast_loss: 0.333004, self_loss: 0.156005, neg_train_q_acc: 9.390083, neg_train_v_acc: 18.782119, pos_train_acc: 78.048288
+traing: 1300/1712, train_loss: 12.621404, bce_loss: 2.292281, q_bce_loss: 3.444770, v_bce_loss: 3.873542, debias_bce_loss: 2.226733, constrast_loss: 0.333028, self_loss: 0.150350, neg_train_q_acc: 9.081931, neg_train_v_acc: 18.125501, pos_train_acc: 78.013424
+traing: 1400/1712, train_loss: 12.604168, bce_loss: 2.293873, q_bce_loss: 3.444714, v_bce_loss: 3.868921, debias_bce_loss: 2.228023, constrast_loss: 0.333037, self_loss: 0.145200, neg_train_q_acc: 8.799572, neg_train_v_acc: 17.536738, pos_train_acc: 77.988934
+traing: 1500/1712, train_loss: 12.591255, bce_loss: 2.294939, q_bce_loss: 3.445752, v_bce_loss: 3.866545, debias_bce_loss: 2.229261, constrast_loss: 0.333051, self_loss: 0.140569, neg_train_q_acc: 8.555035, neg_train_v_acc: 16.999566, pos_train_acc: 77.954950
+traing: 1600/1712, train_loss: 12.576660, bce_loss: 2.295388, q_bce_loss: 3.445237, v_bce_loss: 3.863826, debias_bce_loss: 2.229969, constrast_loss: 0.333045, self_loss: 0.136398, neg_train_q_acc: 8.335124, neg_train_v_acc: 16.503988, pos_train_acc: 77.959800
+traing: 1700/1712, train_loss: 12.561999, bce_loss: 2.295163, q_bce_loss: 3.444330, v_bce_loss: 3.861850, debias_bce_loss: 2.230231, constrast_loss: 0.333051, self_loss: 0.132458, neg_train_q_acc: 8.124924, neg_train_v_acc: 16.058058, pos_train_acc: 77.942404
+
+lr: 0.0001250
+epoch 23, time: 7195.19
+	train_loss: 12.55, norm: 7.2637, score: 77.90
+	eval score: 55.26 (91.34)
+	entropy:  3.62
+traing: 100/1712, train_loss: 12.293842, bce_loss: 2.278453, q_bce_loss: 3.432298, v_bce_loss: 3.819669, debias_bce_loss: 2.214492, constrast_loss: 0.336449, self_loss: 0.070826, neg_train_q_acc: 4.854167, neg_train_v_acc: 8.973959, pos_train_acc: 79.096356
+traing: 200/1712, train_loss: 12.278662, bce_loss: 2.276600, q_bce_loss: 3.432539, v_bce_loss: 3.816398, debias_bce_loss: 2.209288, constrast_loss: 0.334796, self_loss: 0.069680, neg_train_q_acc: 4.772787, neg_train_v_acc: 8.938151, pos_train_acc: 78.603517
+traing: 300/1712, train_loss: 12.250127, bce_loss: 2.271628, q_bce_loss: 3.429422, v_bce_loss: 3.800168, debias_bce_loss: 2.206891, constrast_loss: 0.334174, self_loss: 0.069281, neg_train_q_acc: 4.746094, neg_train_v_acc: 8.893663, pos_train_acc: 78.439672
+traing: 400/1712, train_loss: 12.250501, bce_loss: 2.270116, q_bce_loss: 3.430892, v_bce_loss: 3.803266, debias_bce_loss: 2.206976, constrast_loss: 0.333927, self_loss: 0.068441, neg_train_q_acc: 4.675781, neg_train_v_acc: 8.841146, pos_train_acc: 78.469077
+traing: 500/1712, train_loss: 12.237300, bce_loss: 2.267531, q_bce_loss: 3.427380, v_bce_loss: 3.798179, debias_bce_loss: 2.204692, constrast_loss: 0.333682, self_loss: 0.068612, neg_train_q_acc: 4.714583, neg_train_v_acc: 8.785938, pos_train_acc: 78.509637
+traing: 600/1712, train_loss: 12.243913, bce_loss: 2.269298, q_bce_loss: 3.428990, v_bce_loss: 3.800563, debias_bce_loss: 2.206921, constrast_loss: 0.333556, self_loss: 0.068195, neg_train_q_acc: 4.693794, neg_train_v_acc: 8.726563, pos_train_acc: 78.492406
+traing: 700/1712, train_loss: 12.239971, bce_loss: 2.269469, q_bce_loss: 3.428011, v_bce_loss: 3.799795, debias_bce_loss: 2.206584, constrast_loss: 0.333433, self_loss: 0.067560, neg_train_q_acc: 4.666667, neg_train_v_acc: 8.648624, pos_train_acc: 78.476564
+traing: 800/1712, train_loss: 12.231111, bce_loss: 2.267316, q_bce_loss: 3.427209, v_bce_loss: 3.796889, debias_bce_loss: 2.204687, constrast_loss: 0.333338, self_loss: 0.067224, neg_train_q_acc: 4.629720, neg_train_v_acc: 8.584147, pos_train_acc: 78.517906
+traing: 900/1712, train_loss: 12.235153, bce_loss: 2.267028, q_bce_loss: 3.429656, v_bce_loss: 3.799105, debias_bce_loss: 2.205346, constrast_loss: 0.333264, self_loss: 0.066918, neg_train_q_acc: 4.580440, neg_train_v_acc: 8.530093, pos_train_acc: 78.523150
+traing: 1000/1712, train_loss: 12.226627, bce_loss: 2.264419, q_bce_loss: 3.428032, v_bce_loss: 3.797406, debias_bce_loss: 2.203550, constrast_loss: 0.333184, self_loss: 0.066679, neg_train_q_acc: 4.546354, neg_train_v_acc: 8.496615, pos_train_acc: 78.545966
+traing: 1100/1712, train_loss: 12.232364, bce_loss: 2.265110, q_bce_loss: 3.430197, v_bce_loss: 3.799269, debias_bce_loss: 2.204494, constrast_loss: 0.333081, self_loss: 0.066737, neg_train_q_acc: 4.517637, neg_train_v_acc: 8.486269, pos_train_acc: 78.549363
+traing: 1200/1712, train_loss: 12.238500, bce_loss: 2.266262, q_bce_loss: 3.431803, v_bce_loss: 3.802264, debias_bce_loss: 2.206195, constrast_loss: 0.333019, self_loss: 0.066319, neg_train_q_acc: 4.481771, neg_train_v_acc: 8.438477, pos_train_acc: 78.541886
+traing: 1300/1712, train_loss: 12.246458, bce_loss: 2.268195, q_bce_loss: 3.434629, v_bce_loss: 3.804193, debias_bce_loss: 2.208849, constrast_loss: 0.332992, self_loss: 0.065867, neg_train_q_acc: 4.450421, neg_train_v_acc: 8.394932, pos_train_acc: 78.505711
+traing: 1400/1712, train_loss: 12.242506, bce_loss: 2.266608, q_bce_loss: 3.434261, v_bce_loss: 3.804480, debias_bce_loss: 2.207369, constrast_loss: 0.332927, self_loss: 0.065621, neg_train_q_acc: 4.421968, neg_train_v_acc: 8.365421, pos_train_acc: 78.530694
+traing: 1500/1712, train_loss: 12.250407, bce_loss: 2.267927, q_bce_loss: 3.435882, v_bce_loss: 3.808121, debias_bce_loss: 2.209080, constrast_loss: 0.332884, self_loss: 0.065504, neg_train_q_acc: 4.419184, neg_train_v_acc: 8.341841, pos_train_acc: 78.514585
+traing: 1600/1712, train_loss: 12.250220, bce_loss: 2.267745, q_bce_loss: 3.435250, v_bce_loss: 3.809352, debias_bce_loss: 2.208852, constrast_loss: 0.332819, self_loss: 0.065401, neg_train_q_acc: 4.399658, neg_train_v_acc: 8.321696, pos_train_acc: 78.520347
+traing: 1700/1712, train_loss: 12.250205, bce_loss: 2.267773, q_bce_loss: 3.434725, v_bce_loss: 3.810142, debias_bce_loss: 2.209146, constrast_loss: 0.332766, self_loss: 0.065218, neg_train_q_acc: 4.379289, neg_train_v_acc: 8.296569, pos_train_acc: 78.529414
+
+lr: 0.0000625
+epoch 24, time: 627.78
+	train_loss: 12.24, norm: 7.2575, score: 78.49
+	eval score: 51.17 (91.34)
+	entropy:  3.61
